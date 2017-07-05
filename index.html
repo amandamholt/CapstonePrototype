@@ -1,9 +1,47 @@
 <html>
-    <head>
-        <title>LH Ventures Capstone Prototype</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h5>LH Ventures Capstone Prototype</h5>
-    </body>
+
+<head>
+    <title>LH Ventures Capstone Prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h5>LH Ventures Capstone Prototype</h5>
+    <div id="page" class="mainpgelements">
+        <img src="view_folder.png" alt="saved view folder" />
+        <h3>DaVinci</h3>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'select')" id="defaultOpen">SELECT</button>
+            <button class="tablinks" onclick="openTab(event, 'sort')">SORT</button>
+            <div id="select" class="tabcontent">
+                <div class="selectoption">MARGIN</div>
+                <div class="selectoption">VOLUME</div>
+                <div class="selectoption">VENDOR</div>
+                <div class="selectoption">PROGRAM</div>
+                <div class="selectoption">REGION</div>
+                <div class="selectoption">CHANNEL</div>
+            </div>
+            <div id="sort" class="tabcontent">
+                <div class="sortoption">VOLUME</div>
+                <div class="sortoption">MARGIN</div>
+                <div class="sortoption">AUR</div>
+                <div class="sortoption">PRICE</div>
+                <div class="sortoption">TIME IN STORE</div>
+                <div class="sortoption">INVENTORY LEFT</div>
+                <div class="sortoption">COLOR</div>
+            </div>
+            <button id="menubutton">SAVE</button>
+        </div>
+        <div id="subpage">
+            <div id=time class="subpagecontent">
+            </div>
+            <div id=gridspace class="subpagecontent">
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
