@@ -1,6 +1,7 @@
 body {
     background-color: whitesmoke;
     font-family: "Arial", Georgia, Serif;
+    font-size: 80%;
 }
 
 h5 {
@@ -82,12 +83,11 @@ div.tab button.active {
 /* Style the tab content */
 
 .tabcontent {
-    font-size: 17px;
     position: relative;
-    width: 150px;
+    width: 200px;
     height: 100px;
     top: 60px;
-    left: 40%;
+    left: 30%;
     margin: 10px;
     margin-left: -50px;
     padding-bottom: 20px;
@@ -111,7 +111,6 @@ div.tab button.active {
 
 #menubutton {
     background-color: whitesmoke;
-    font-size: 17px;
     position: absolute;
     width: 100px;
     height: 50px;
@@ -139,3 +138,78 @@ div.tab button.active {
     top: 0;
     position: absolute;
 }
+
+/* Styles for accordion drop downs */
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600');
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  font-size: 1.1em;
+  margin: 1em 0;
+}
+.description {
+  margin: 1em auto 2.25em;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul .inner {
+  padding-left: 1em;
+  overflow: hidden;
+  display: none;
+}
+ul .inner.show {
+  /*display: block;*/
+}
+ul li {
+  margin: .5em 0;
+}
+ul li a.toggle {
+  width: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.78);
+  color: #fefefe;
+  padding: .75em;
+  border-radius: 0.15em;
+  transition: background .3s ease;
+}
+ul li a.toggle:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.draggable {
+    list-style-position:inside;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* Styles for breadcrumb things */
+
+#sortable {
+    list-style-type: none; margin: 0; padding: 0; margin-bottom: 10px; text-align: left;
+}
+
+#sortable li {
+    margin: 5px; padding: 5px; width: 150px;
+}
+
+#sortable .breadcrumbs {
+    display:inline;
+    border: none;
+}
+

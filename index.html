@@ -17,12 +17,121 @@
             <button class="tablinks" onclick="openTab(event, 'select')" id="defaultOpen">SELECT</button>
             <button class="tablinks" onclick="openTab(event, 'sort')">SORT</button>
             <div id="select" class="tabcontent">
-                <div class="selectoption">MARGIN</div>
-                <div class="selectoption">VOLUME</div>
-                <div class="selectoption">VENDOR</div>
-                <div class="selectoption">PROGRAM</div>
-                <div class="selectoption">REGION</div>
-                <div class="selectoption">CHANNEL</div>
+
+<ul class="accordion">
+  
+    
+    <li>
+    <a class="toggle" href="javascript:void(0);">Category +</a>
+    <ul class="inner">
+      <li><a href="#" class="toggle">Mens +</a>
+          <ul class="inner">
+          <li><a href="#" class="toggle">Tops</a></li>
+            <li><a href="#" class="toggle">Bottoms +</a>
+                <ul class="inner">
+                <li class="draggable">Slacks >></li>
+                <li class="draggable">Jeans >></li>
+                <li class="draggable">Sweatpants >></li>
+                <li class="draggable">Shorts >></li>
+                </ul></li>
+          <li><a href="#" class="toggle">Accessories</a></li>
+          <li><a href="#" class="toggle">Shoes</a></li>
+        </ul></li>
+        <li><a href="#" class="toggle">Womens</a></li>
+      <li><a href="#" class="toggle">Kids</a></li>
+    </ul>
+  </li>
+    
+    
+    <li>
+    <a class="toggle" href="javascript:void(0);">Sales Metrics +</a>
+    <ul class="inner">
+      <li><a href="#" class="toggle">Volume Sold +</a>
+          <ul class="inner">
+          <li class="draggable">Volume Top 20% >></li>
+          <li class="draggable">Volume Bottom 20% >></li>
+        </ul></li>
+      <li><a href="#" class="toggle">Margin +</a>
+         <ul class="inner">
+          <li class="draggable">Top 20% >></li>
+          <li class="draggable">Bottom 20% >></li>
+        </ul></li>
+      <li><a href="#" class="toggle">Sell-Through Rate +</a>
+         <ul class="inner">
+          <li class="draggable">Top 20% >></li>
+          <li class="draggable">Bottom 20% >></li>
+        </ul></li>
+      <li><a href="#" class="toggle">Remaining Inventory +</a>
+         <ul class="inner">
+          <li class="draggable">Top 20% >></li>
+          <li class="draggable">Bottom 20% >></li>
+        </ul></li>
+    </ul>
+  </li>
+  
+  <li>
+    <a class="toggle" href="javascript:void(0);">Attributes +</a>
+    <ul class="inner">
+      <li><a href="#" class="toggle">Color +</a>
+          <ul class="inner">
+          <li class="draggable">Black >></li>
+          <li class="draggable">White >></li>
+          <li class="draggable">Grey >></li>
+          <li class="draggable">Blue >></li>
+          <li class="draggable">Green >></li>
+          <li class="draggable">Red >></li>
+        </ul></li>
+       <li><a href="#" class="toggle">Style +</a>
+          <ul class="inner">
+          <li class="draggable">Slim >></li>
+          <li class="draggable">Bootcut >></li>
+          <li class="draggable">Wide Leg >></li>
+          <li class="draggable">Ankle >></li>
+        </ul></li>
+      <li><a href="#" class="toggle">Wash +</a>
+          <ul class="inner">
+          <li class="draggable selectoption">Rinse >></li>
+          <li class="draggable">Mid >></li>
+          <li class="draggable">Light >></li>
+          <li class="draggable">Acid >></li>
+        </ul></li>
+    </ul>
+  </li>
+  
+  <li>
+    <a class="toggle" href="javascript:void(0);">Vendor +</a>
+    <ul class="inner">
+      <li class="draggable">XYZ Vendor >></li>
+      <li class="draggable">ABC Vendor >></li>
+      <li class="draggable">123 Vendor >></li>
+      <li class="draggable">789 Vendor >></li>
+    </ul>
+  </li>  
+    
+  
+  <li>
+    <a class="toggle" href="javascript:void(0);">SAMPLE</a>
+    <ul class="inner">
+      <li>
+        <a href="#" class="toggle">Technically any number of nested elements</a>
+        <ul class="inner">
+          <li>
+            <a href="#" class="toggle">Another nested element</a>
+            <div class="inner">
+              <p>
+                As long as the inner element has inner as one of its classes then it will be toggled.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+      
+      <li>Option 2</li>
+      
+      <li>Option 3</li>
+    </ul>
+  </li>
+</ul>
             </div>
             <div id="sort" class="tabcontent">
                 <div class="sortoption">VOLUME</div>
@@ -33,10 +142,17 @@
                 <div class="sortoption">INVENTORY LEFT</div>
                 <div class="sortoption">COLOR</div>
             </div>
-            <button id="menubutton">SAVE</button>
+            
+         
+               <!--<button id="menubutton">SAVE</button>-->
         </div>
         <div id="subpage">
             <div id=time class="subpagecontent">
+                <ul id="sortable">
+                <li class="breadcrumbs ui-state-disabled">Winter 2017 >></li>
+                <li class="breadcrumbs ui-state-default">Mens >></li>
+                <li class="breadcrumbs ui-state-default">Bottoms >></li>
+                </ul>
             </div>
             <div id=gridspace class="subpagecontent">
             </div>

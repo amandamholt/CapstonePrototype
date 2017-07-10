@@ -1,4 +1,20 @@
-$(function () {
+//sortable and draggable 
+$( function() {
+    $( "#sortable" ).sortable({
+      revert: true,
+      cancel: ".ui-state-disabled"
+    });
+    $( ".draggable" ).draggable({
+      connectToSortable: "#sortable",
+      helper: "clone",
+      revert: "invalid",
+      stack: "#sortable li", 
+    }).addClass("breadcrumbs");
+    $( "ul, li" ).disableSelection();
+  } );
+
+
+/*$(function () {
     $(".selectoption").draggable({
         containment: '.mainpgelements',
         stack: '.mainpgelements',
@@ -21,7 +37,7 @@ $(function () {
     $("#gridspace").droppable({
         drop: handleDrop
     });
-});
+});*/
 
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
@@ -38,8 +54,25 @@ function openTab(evt, tabName) {
 }
 
 function handleDrop(event, ui) {
-alert('Hello');
+console.log("dropped");
 }
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+//collapsable menus
+$('.toggle').click(function(e) {
+  	e.preventDefault();
+  
+    var $this = $(this);
+  
+    if ($this.next().hasClass('show')) {
+        $this.next().removeClass('show');
+        $this.next().slideUp(350);
+    } else {
+        $this.parent().parent().find('li .inner').removeClass('show');
+        $this.parent().parent().find('li .inner').slideUp(350);
+        $this.next().toggleClass('show');
+        $this.next().slideToggle(350);
+    }
+});
