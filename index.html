@@ -3,15 +3,13 @@
 <head>
     <title>LH Ventures Capstone Prototype</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
 </head>
 
 <body>
     <h5>LH Ventures Capstone Prototype</h5>
     <div id="page" class="mainpgelements">
-        <img src="view_folder.png" alt="saved view folder" />
+        <img id="save" src="view_folder.png" alt="saved view folder" />
         <h3>DaVinci</h3>
         <div class="tab">
             <button class="tablinks" onclick="openTab(event, 'select')" id="defaultOpen">SELECT</button>
@@ -29,10 +27,10 @@
           <li><a href="#" class="toggle">Tops</a></li>
             <li><a href="#" class="toggle">Bottoms +</a>
                 <ul class="inner">
-                <li class="draggable">Slacks >></li>
-                <li class="draggable">Jeans >></li>
-                <li class="draggable">Sweatpants >></li>
-                <li class="draggable">Shorts >></li>
+                <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Slacks</li>
+                <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Jeans</li>
+                <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Sweatpants</li>
+                <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Shorts</li>
                 </ul></li>
           <li><a href="#" class="toggle">Accessories</a></li>
           <li><a href="#" class="toggle">Shoes</a></li>
@@ -48,23 +46,23 @@
     <ul class="inner">
       <li><a href="#" class="toggle">Volume Sold +</a>
           <ul class="inner">
-          <li class="draggable">Volume Top 20% >></li>
-          <li class="draggable">Volume Bottom 20% >></li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Volume Top 20%</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Volume Bottom 20%</li>
         </ul></li>
       <li><a href="#" class="toggle">Margin +</a>
          <ul class="inner">
-          <li class="draggable">Top 20% >></li>
-          <li class="draggable">Bottom 20% >></li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Margin Top 20%</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Margin Bottom 20%</li>
         </ul></li>
       <li><a href="#" class="toggle">Sell-Through Rate +</a>
          <ul class="inner">
-          <li class="draggable">Top 20% >></li>
-          <li class="draggable">Bottom 20% >></li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Sell-Thru Top 20%</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Sell-Thru Bottom 20%</li>
         </ul></li>
       <li><a href="#" class="toggle">Remaining Inventory +</a>
          <ul class="inner">
-          <li class="draggable">Top 20% >></li>
-          <li class="draggable">Bottom 20% >></li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Inventory Top 20%</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Inventory Bottom 20%</li>
         </ul></li>
     </ul>
   </li>
@@ -74,26 +72,26 @@
     <ul class="inner">
       <li><a href="#" class="toggle">Color +</a>
           <ul class="inner">
-          <li class="draggable">Black >></li>
-          <li class="draggable">White >></li>
-          <li class="draggable">Grey >></li>
-          <li class="draggable">Blue >></li>
-          <li class="draggable">Green >></li>
-          <li class="draggable">Red >></li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Black</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>White</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Grey</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Blue</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Green</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Red</li>
         </ul></li>
        <li><a href="#" class="toggle">Style +</a>
           <ul class="inner">
-          <li class="draggable">Slim >></li>
-          <li class="draggable">Bootcut >></li>
-          <li class="draggable">Wide Leg >></li>
-          <li class="draggable">Ankle >></li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Slim</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Straight</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Bootcut</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Ankle</li>
         </ul></li>
       <li><a href="#" class="toggle">Wash +</a>
           <ul class="inner">
-          <li class="draggable selectoption">Rinse >></li>
-          <li class="draggable">Mid >></li>
-          <li class="draggable">Light >></li>
-          <li class="draggable">Acid >></li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Rinse</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Mid</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Light</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Acid</li>
         </ul></li>
     </ul>
   </li>
@@ -101,10 +99,10 @@
   <li>
     <a class="toggle" href="javascript:void(0);">Vendor +</a>
     <ul class="inner">
-      <li class="draggable">XYZ Vendor >></li>
-      <li class="draggable">ABC Vendor >></li>
-      <li class="draggable">123 Vendor >></li>
-      <li class="draggable">789 Vendor >></li>
+      <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>XYZ Vendor</li>
+      <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>ABC Vendor</li>
+      <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>123 Vendor</li>
+      <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>789 Vendor</li>
     </ul>
   </li>  
     
@@ -147,17 +145,28 @@
                <!--<button id="menubutton">SAVE</button>-->
         </div>
         <div id="subpage">
-            <div id=time class="subpagecontent">
+            <div id="time" class="subpagecontent">
                 <ul id="sortable">
-                <li class="breadcrumbs ui-state-disabled">Winter 2017 >></li>
-                <li class="breadcrumbs ui-state-default">Mens >></li>
-                <li class="breadcrumbs ui-state-default">Bottoms >></li>
+                <li class="breadcrumbs ui-state-disabled">
+                    <span class="ui-icon ui-icon-close"></span>
+                    Winter 2017</li>
+                    <li class="breadcrumbs ui-state-default"><span class="ui-icon ui-icon-close"></span> Mens</li>
+                    <li class="breadcrumbs ui-state-default"><span class="ui-icon ui-icon-close"></span> Bottoms</li>
                 </ul>
             </div>
-            <div id=gridspace class="subpagecontent">
+            <div class="subpagecontent">
+            </div>
+            <div id="gridspace">
+                 <ul id="productGrid">
+                </ul>
             </div>
         </div>
     </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="productdata.js"></script>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
