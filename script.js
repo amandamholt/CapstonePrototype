@@ -2,6 +2,18 @@
 function createOnClickListenerRemove() {
 $(".ui-icon-close").click(function(){
     $(this).parent().remove();
+    
+    console.log($(this).parent());
+    
+    console.log(elementsToSort);
+    
+    var selector = $($(this).parent()).text();
+    var idx = elementsToSort.indexOf(selector);
+    elementsToSort.splice(idx, 1);
+    
+    console.log(elementsToSort);
+    
+    sortShowindData(elementsToSort);
 });
 };
 
@@ -25,9 +37,10 @@ $( function() {
         
      stop: function(e, ui){
         var selector = $(ui.helper).text();
-        if (selector == "Margin Top 20%"){
-            keepMarginTop();
-        }
+         
+        elementsToSort.push(lookUpFilter[selector]);
+        sortShowindData(elementsToSort);
+        
      }
     });
     
@@ -56,56 +69,56 @@ var MarginGroup
 var VolumeNum
 var VolumeGroup
 
+
+var dataShowing = [];
+var elementsToSort = [];
+
+
 function fillGrid (){
     $(data.ProductData).each( function (i){
-        SKU = data.ProductData[i].SKU;
-        ProductName = data.ProductData[i].ProductName;
-        Picture = data.ProductData[i].Picture;
-        SubCat = data.ProductData[i].SubCat;
-        Color = data.ProductData[i].Color;
-        Style = data.ProductData[i].Style;
-        Wash = data.ProductData[i].Wash;
-        Vendor = data.ProductData[i].Vendor;
-        MarginNum = data.ProductData[i].MarginNum;
-        MarginGroup = data.ProductData[i].MarginGroup;
-        VolumeNum = data.ProductData[i].VolumeNum;
-        VolumeGroup = data.ProductData[i].VolumeGroup;
-        appendComponent();
+        appendComponent(data.ProductData[i]);
+        dataShowing.push(data.ProductData[i]);
 })
 }
 
 //helper function to construct component 
-function appendComponent(){
+function appendComponent(data){
     var productImage = $('<img>'); 
-    productImage.attr('src', Picture);
-    var title = $('<p class="productName"></p>').text(ProductName);
-    var skuNum = $('<p></p>').text("SKU# " + SKU);
-    var margin = $('<p></p>').text("Margin %: " + MarginNum);
+    productImage.attr('src', data.Picture);
+    var title = $('<p class="productName"></p>').text(data.ProductName);
+    var skuNum = $('<p></p>').text("SKU# " + data.SKU);
+    var margin = $('<p></p>').text("Margin %: " + data.MarginNum);
     $('<li class="gridTile"></li>').appendTo("#productGrid").append(productImage, title, skuNum, margin);
 }
 
 fillGrid();
 
-function keepMarginTop(){
+
+function sortShowindData(sortElements){
     $(".gridTile").remove();
+     var auxiliarArray = [];
     $(data.ProductData).each( function (i){
-        if (data.ProductData[i].MarginGroup == "Top"  ){
-        SKU = data.ProductData[i].SKU;
-        ProductName = data.ProductData[i].ProductName;
-        Picture = data.ProductData[i].Picture;
-        SubCat = data.ProductData[i].SubCat;
-        Color = data.ProductData[i].Color;
-        Style = data.ProductData[i].Style;
-        Wash = data.ProductData[i].Wash;
-        Vendor = data.ProductData[i].Vendor;
-        MarginNum = data.ProductData[i].MarginNum;
-        MarginGroup = data.ProductData[i].MarginGroup;
-        VolumeNum = data.ProductData[i].VolumeNum;
-        VolumeGroup = data.ProductData[i].VolumeGroup;
-        appendComponent();
+        var howManyAreTrue = 0;
+        for (var j = 0; j < sortElements.length; j++){
+            if (data.ProductData[i][sortElements[j].type] == sortElements[j].info  ){
+                howManyAreTrue = howManyAreTrue +1;
+            }
         }
-    }
+        if(howManyAreTrue == sortElements.length){
+            auxiliarArray.push(data.ProductData[i]);
+        }
+    }   
     )
+    
+    dataShowing = [];
+    dataShowing = auxiliarArray;
+    
+    //SORT DATA SHOWING ARRAY!!
+    //dataShowing.sort(function(a,b){return a.SKU < b.SKU});
+    
+    for(var i = 0; i < dataShowing.length; i++){
+        appendComponent(dataShowing[i]);
+    }
 }
 
 //keepMarginTop();

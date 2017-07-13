@@ -71,3 +71,41 @@ var data = {"ProductData":
    "VolumeGroup": "Bottom"
  }
 ]}
+
+var lookUpFilter = {
+    "Jeans":{"type":"SubCat","info":"Jeans"},
+    "Slacks":{"type":"SubCat","info":"Slacks"},
+    "Sweatpants":{"type":"SubCat","info":"Sweatpants"},
+    "Shorts":{"type":"SubCat","info":"Shorts"},
+    
+    "Volume Top 20%":{"type":"VolumeGroup","info":"Top"},
+    "Volume Bottom 20%":{"type":"VolumeGroup","info":"Bottom"},
+    
+    "Margin Top 20%":{"type":"MarginGroup","info":"Top"},
+    "Margin Bottom 20%":{"type":"MarginGroup","info":"Bottom"},
+    
+    "Black":{"type":"Color","info":"Black"},
+    "White":{"type":"Color","info":"White"},
+    "Grey":{"type":"Color","info":"Grey"},
+    "Blue":{"type":"Color","info":"Blue"},
+    "Green":{"type":"Color","info":"Green"},
+    
+    "Slim":{"type":"Style","info":"Slim"},
+    "Straight":{"type":"Style","info":"Straight"},
+    "Bootcut":{"type":"Style","info":"Bootcut"},
+    "Ankle":{"type":"Style","info":"Ankle"},
+    
+    "Rinse":{"type":"Wash","info":"Rinse"},
+    "Mid":{"type":"Wash","info":"Mid"},
+    "Light":{"type":"Wash","info":"Light"},
+    "Acid":{"type":"Wash","info":"Acid"},
+    
+    "XYZ Vendor":{"type":"Vendor","info":"XYZ Vendor"},
+    "ABC Vendor":{"type":"Vendor","info":"ABC Vendor"},
+    "123 Vendor":{"type":"Vendor","info":"123 Vendor"},
+    "789 Vendor":{"type":"Vendor","info":"789 Vendor"},
+
+}
+
+
+
