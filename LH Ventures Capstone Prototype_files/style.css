@@ -173,11 +173,6 @@ div.tab button.active {
     font-weight: 800;
 }
 
-.catHead {
-    display: block;
-    clear: left;
-}
-
 /* Styles for accordion drop downs */
 
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600');
@@ -199,6 +194,7 @@ p {
 }
 
 h1 {
+  font-family: 'Pacifico', cursive;
   font-weight: 400;
   font-size: 2.5em;
 }
@@ -231,12 +227,6 @@ ul li a.toggle:hover {
 }
 
 .draggable {
-    list-style-position:inside;
-    border: 1px solid black;
-    border-radius: 3px;
-}
-
-.draggableSort {
     list-style-position:inside;
     border: 1px solid black;
     border-radius: 3px;

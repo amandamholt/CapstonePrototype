@@ -14,6 +14,7 @@
         <div class="tab">
             <button class="tablinks" onclick="openTab(event, 'select')" id="defaultOpen">SELECT</button>
             <button class="tablinks" onclick="openTab(event, 'sort')">SORT</button>
+            
             <div id="select" class="tabcontent">
 
 <ul class="accordion">
@@ -132,13 +133,93 @@
 </ul>
             </div>
             <div id="sort" class="tabcontent">
-                <div class="sortoption">VOLUME</div>
-                <div class="sortoption">MARGIN</div>
-                <div class="sortoption">AUR</div>
-                <div class="sortoption">PRICE</div>
-                <div class="sortoption">TIME IN STORE</div>
-                <div class="sortoption">INVENTORY LEFT</div>
-                <div class="sortoption">COLOR</div>
+                 
+
+<ul class="accordion">
+  
+    
+    <li>
+    <a class="toggle" href="javascript:void(0);">Category +</a>
+    <ul class="inner">
+      <li><a href="#" class="toggle">Mens +</a>
+          <ul class="inner">
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Types of Tops</li>
+            <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Types of Bottoms</li>
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Types of Accesories</li>
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Types of Shoes</li></ul>
+        <li><a href="#" class="toggle">Womens</a></li>
+      <li><a href="#" class="toggle">Kids</a></li>
+    </ul>
+  </li>
+    
+    
+    <li>
+    <a class="toggle" href="javascript:void(0);">Sales Metrics +</a>
+    <ul class="inner">
+      <li><a href="#" class="toggle">Volume Sold +</a>
+          <ul class="inner">
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Volume High to Low</li>
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Volume Low to High</li>
+        </ul></li>
+      <li><a href="#" class="toggle">Margin +</a>
+         <ul class="inner">
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Margin High to Low</li>
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Margin Low to High</li>
+        </ul></li>
+      <li><a href="#" class="toggle">Sell-Through Rate +</a>
+         <ul class="inner">
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Sell-Thru High to Low</li>
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Sell-Thru Low to High</li>
+        </ul></li>
+      <li><a href="#" class="toggle">Remaining Inventory +</a>
+         <ul class="inner">
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>High to Low</li>
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Low to High</li>
+        </ul></li>
+    </ul>
+  </li>
+  
+  <li>
+    <a class="toggle" href="javascript:void(0);">Attributes +</a>
+    <ul class="inner">
+      <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Color</li>
+      <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Style</li>
+      <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Wash</li>
+    </ul>
+  </li>
+  
+  <li>
+    <a class="toggle" href="javascript:void(0);">Vendor +</a>
+    <ul class="inner">
+      <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Group by vendor</li>
+    </ul>
+  </li>
+    
+  
+  <li>
+    <a class="toggle" href="javascript:void(0);">SAMPLE</a>
+    <ul class="inner">
+      <li>
+        <a href="#" class="toggle">Technically any number of nested elements</a>
+        <ul class="inner">
+          <li>
+            <a href="#" class="toggle">Another nested element</a>
+            <div class="inner">
+              <p>
+                As long as the inner element has inner as one of its classes then it will be toggled.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </li>
+      
+      <li>Option 2</li>
+      
+      <li>Option 3</li>
+    </ul>
+  </li>
+</ul>
+            
             </div>
             
          

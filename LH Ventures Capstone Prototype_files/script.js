@@ -6,20 +6,14 @@ $(".ui-icon-close").click(function(){
     console.log($(this).parent());
     
     console.log(elementsToSort);
-
+    
     var selector = $($(this).parent()).text();
-    var idx = elementsToSort.indexOf(lookUpFilter[selector]);
+    var idx = elementsToSort.indexOf(selector);
+    elementsToSort.splice(idx, 1);
     
-    if (idx > -1){
-    elementsToSort.splice(idx, 1);}
+    console.log(elementsToSort);
     
-    
-    var idxo = order.indexOf(selector);
-    
-    if (idxo > -1){
-    order.splice(idxo, 1);}
-    
-    sortShowindData(elementsToSort,order);
+    sortShowindData(elementsToSort);
 });
 };
 
@@ -45,39 +39,22 @@ $( function() {
         var selector = $(ui.helper).text();
          
         elementsToSort.push(lookUpFilter[selector]);
-        sortShowindData(elementsToSort,order);
+        sortShowindData(elementsToSort);
         
      }
     });
-    $( ".draggableSort" ).draggable({
-      connectToSortable: "#sortable",
-      helper: "clone",
-      revert: "invalid",
-      stack: "#sortable li", 
-      start: function(e, ui){
-        $(ui.helper).addClass("breadcrumbs").children().removeClass("ui-icon-grip-dotted-vertical").addClass("ui-icon-close");
-        createOnClickListenerRemove();},
-        
-     stop: function(e, ui){
-        var sorter = $(ui.helper).text();
-        console.log(sorter);
-         
-        order.push(sorter);
-        sortShowindData(elementsToSort,order);
-        
-        
-     }
-        
-     
-        
-    });
-    
     
     $( "ul, li" ).disableSelection();
     
   } );
 
 //doing stuff with JSON
+
+function proofData() {
+    console.log(data.ProductData[0].Vendor);
+}
+
+proofData();
 
 var SKU
 var ProductName
@@ -95,7 +72,6 @@ var VolumeGroup
 
 var dataShowing = [];
 var elementsToSort = [];
-var order = []
 
 
 function fillGrid (){
@@ -118,9 +94,8 @@ function appendComponent(data){
 fillGrid();
 
 
-function sortShowindData(sortElements, order){
+function sortShowindData(sortElements){
     $(".gridTile").remove();
-    $(".catHead").remove();
      var auxiliarArray = [];
     $(data.ProductData).each( function (i){
         var howManyAreTrue = 0;
@@ -138,44 +113,12 @@ function sortShowindData(sortElements, order){
     dataShowing = [];
     dataShowing = auxiliarArray;
     
-
-    for(var i = 0; i < order.length; i++){
-
-        dataShowing.sort(
-
-            function(a,b){
-
-                if(lookUpOrder[order[i]].direction == "Descending"){
-                    return a[lookUpOrder[order[i]].type] < b[lookUpOrder[order[i]].type];
-                } else {
-                    return a[lookUpOrder[order[i]].type] > b[lookUpOrder[order[i]].type];
-                } 
-
-            }
-
-
-
-        );
-    }
-    
-    
+    //SORT DATA SHOWING ARRAY!!
+    //dataShowing.sort(function(a,b){return a.SKU < b.SKU});
     
     for(var i = 0; i < dataShowing.length; i++){
-        for( var j = 0; j < order.length; j++){
-            if (lookUpOrder[order[j]].direction == "Group"){
-                if(i!=0){
-
-                    if( dataShowing[i][lookUpOrder[order[j]].type] != dataShowing[i-1][lookUpOrder[order[j]].type]){
-                        $('<div class="catHead"></div>').appendTo("#productGrid").append("<br><h1>"+dataShowing[i][lookUpOrder[order[j]].type]+"</h1>");
-                    }
-                }else{
-                    $('<div class="catHead"></div>').appendTo("#productGrid").append("<h1>"+dataShowing[i][lookUpOrder[order[j]].type]+"</h1>");
-                }
-            }
-        }
         appendComponent(dataShowing[i]);
     }
-    
 }
 
 //keepMarginTop();

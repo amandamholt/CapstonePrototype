@@ -107,20 +107,5 @@ var lookUpFilter = {
 
 }
 
-var lookUpOrder ={
-   "Volume High to Low":{"type": "VolumeNum", "direction":"Descending"},
-    "Volume Low to High":{"type": "VolumeNum", "direction":"Ascending"},
-    
-    "Margin High to Low":{"type": "MarginNum", "direction":"Descending"},
-    "Margin Low to High":{"type": "MarginNum", "direction":"Ascending"},
-    
-    "Color":{"type": "Color", "direction":"Group"},
-    "Style":{"type": "Style", "direction":"Group"},
-    "Wash":{"type": "Wash", "direction":"Group"},
-    
-    "Group by vendor":{"type": "Vendor", "direction":"Group"},
-    
-}
-
 
 
