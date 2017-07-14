@@ -175,9 +175,11 @@ function sortShowindData(sortElements, order){
 
                 if(lookUpOrder[order[i]].direction == "Descending"){
                     return b[lookUpOrder[order[i]].type] - a[lookUpOrder[order[i]].type];
-                } else {
+                } else if(lookUpOrder[order[i]].direction == "Ascending"){
                     return a[lookUpOrder[order[i]].type] - b[lookUpOrder[order[i]].type];
-                } 
+                } else {
+                    return ((a[lookUpOrder[order[i]].type] < b[lookUpOrder[order[i]].type]) ? -1 : ((a[lookUpOrder[order[i]].type] > b[lookUpOrder[order[i]].type]) ? 1 : 0));
+                }
 
             }
 
