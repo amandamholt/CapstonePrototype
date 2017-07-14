@@ -108,56 +108,42 @@ function fillGrid (){
 //helper function to construct component 
 function appendComponent(data){
     var productImage = $('<img>'); 
-    productImage.attr('src', data.Picture);
+    var imageLocation = "product_images/" + data.Picture;
+    productImage.attr('src', imageLocation);
     var title = $('<p class="productName"></p>').text(data.ProductName);
     var skuNum = $('<p></p>').text("SKU# " + data.SKU);
-    $('<li class="gridTile"></li>').appendTo("#productGrid").append(productImage, title, skuNum).append(
-        function (i){
-            var addLabel;
-            $(order).each(
+    var toBeAdded = $('<li class="gridTile"></li>').appendTo("#productGrid").append(productImage, title, skuNum);
+    
+    if (order.length > -1) 
+    /*for (var i = 0; i < order.length; i++)*/{
+           
+        $(order).each(
+                
                 function(i){
                     var label = lookUpOrder[order[i]].type;
                     var value = data[label];
-                    addLabel = "<p>" + label + ": " + value + "</p>";
-                }
-            )
-          return addLabel;  
-        }
+                    addLabel = "<p class='label'>" + label + ": " + value + "</p>";
+                    toBeAdded.append(addLabel); 
+               
+                })}
+   
+    /*for (var i = 0; i < elementsToSort.length; i++){
+            $(elementsToSort).each(
+                function(i){
+                    var label = selector;
+                    console.log(label);
+                    //var value = data[label];
+                    //addLabel = "<p>" + label + ": " + value + "</p>";
+                    //toBeAdded.append(addLabel); 
+                })*/
         
-    );
-    
-    
-    
-    
-   /* $(order).each(
-        function(i){
-            var label = lookUpOrder[order[i]].type;
-            console.log(label);
-            var value = data.label;
-            console.log(value);
-            $('<p></p>').appendTo('li').append(label);
-        });*/
-    
-    /*function addLabels (){
-           for (var j = 0; j < elementsToSort.length; j++){
-                   var label = lookUpFilter[j].type
-                   var value = lookUpFilter[j].info
-                   console.log(label);
-                   console.log(value);
-                }
-            
-            console.log(elementsToSort);
-        }
-    
-    addLabels ();*/
-    
-    
 }
 
 fillGrid();
 
 
 function sortShowindData(sortElements, order){
+    $(".label").remove(); 
     $(".gridTile").remove();
     $(".catHead").remove();
      var auxiliarArray = [];
@@ -212,6 +198,7 @@ function sortShowindData(sortElements, order){
                 }
             }
         }
+        
         appendComponent(dataShowing[i]);
         
         
