@@ -111,8 +111,47 @@ function appendComponent(data){
     productImage.attr('src', data.Picture);
     var title = $('<p class="productName"></p>').text(data.ProductName);
     var skuNum = $('<p></p>').text("SKU# " + data.SKU);
-    var margin = $('<p></p>').text("Margin %: " + data.MarginNum);
-    $('<li class="gridTile"></li>').appendTo("#productGrid").append(productImage, title, skuNum, margin);
+    $('<li class="gridTile"></li>').appendTo("#productGrid").append(productImage, title, skuNum).append(
+        function (i){
+            var addLabel;
+            $(order).each(
+                function(i){
+                    var label = lookUpOrder[order[i]].type;
+                    var value = data[label];
+                    addLabel = "<p>" + label + ": " + value + "</p>";
+                }
+            )
+          return addLabel;  
+        }
+        
+    );
+    
+    
+    
+    
+   /* $(order).each(
+        function(i){
+            var label = lookUpOrder[order[i]].type;
+            console.log(label);
+            var value = data.label;
+            console.log(value);
+            $('<p></p>').appendTo('li').append(label);
+        });*/
+    
+    /*function addLabels (){
+           for (var j = 0; j < elementsToSort.length; j++){
+                   var label = lookUpFilter[j].type
+                   var value = lookUpFilter[j].info
+                   console.log(label);
+                   console.log(value);
+                }
+            
+            console.log(elementsToSort);
+        }
+    
+    addLabels ();*/
+    
+    
 }
 
 fillGrid();
@@ -174,6 +213,8 @@ function sortShowindData(sortElements, order){
             }
         }
         appendComponent(dataShowing[i]);
+        
+        
     }
     
 }
