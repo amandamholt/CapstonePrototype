@@ -1,3 +1,5 @@
+var selector; 
+
 //function to hold the delete task function
 function createOnClickListenerRemove() {
 $(".ui-icon-close").click(function(){
@@ -60,7 +62,7 @@ $( function() {
         
      stop: function(e, ui){
         var sorter = $(ui.helper).text();
-        console.log(sorter);
+        //console.log(sorter);
          
         order.push(sorter);
         sortShowindData(elementsToSort,order);
@@ -95,7 +97,7 @@ var VolumeGroup
 
 var dataShowing = [];
 var elementsToSort = [];
-var order = []
+var order = [];
 
 
 function fillGrid (){
@@ -115,7 +117,7 @@ function appendComponent(data){
     var toBeAdded = $('<li class="gridTile"></li>').appendTo("#productGrid").append(productImage, title, skuNum);
     
     if (order.length > -1) 
-    /*for (var i = 0; i < order.length; i++)*/{
+    {
            
         $(order).each(
                 
@@ -127,16 +129,17 @@ function appendComponent(data){
                
                 })}
    
-    /*for (var i = 0; i < elementsToSort.length; i++){
-            $(elementsToSort).each(
-                function(i){
-                    var label = selector;
-                    console.log(label);
+   //if (elementsToSort.length > -1){
+            //$(elementsToSort).each(
+                //function(i){
+                    //var label = lookUpFilter[i].type;
+                    //console.log(selector);
                     //var value = data[label];
                     //addLabel = "<p>" + label + ": " + value + "</p>";
                     //toBeAdded.append(addLabel); 
-                })*/
-        
+                //})}
+
+//console.log(elementsToSort.lookUpFilter[selector]);
 }
 
 fillGrid();
@@ -171,9 +174,9 @@ function sortShowindData(sortElements, order){
             function(a,b){
 
                 if(lookUpOrder[order[i]].direction == "Descending"){
-                    return a[lookUpOrder[order[i]].type] < b[lookUpOrder[order[i]].type];
+                    return b[lookUpOrder[order[i]].type] - a[lookUpOrder[order[i]].type];
                 } else {
-                    return a[lookUpOrder[order[i]].type] > b[lookUpOrder[order[i]].type];
+                    return a[lookUpOrder[order[i]].type] - b[lookUpOrder[order[i]].type];
                 } 
 
             }
