@@ -14,7 +14,7 @@ h5 {
     background-position: center;
     text-align: center;
     height: 700px;
-    width: 80%;
+    width: 100%;
     margin: auto;
     position: relative;
     border-radius: 10px;
@@ -42,9 +42,9 @@ div.tab {
     text-align: center;
     background-position: center;
     height: 640px;
-    width: 25%;
+    width: 20%;
     left: 0;
-    top: 60;
+    top: 145;
     position: relative;
     overflow: hidden;
 }
@@ -126,16 +126,17 @@ div.tab button.active {
     text-align: center;
     background-position: center;
     height: 640px;
-    width: 75%;
+    width: 80%;
     right: 0;
     bottom: 0;
+    top: 145;
     position: absolute;
 }
 
 #time {
     background-color: #e3e4e5;
     text-align: center;
-    height: 25%;
+    height: 15%;
     width: 100%;
     top: 0;
     position: absolute;
@@ -143,7 +144,7 @@ div.tab button.active {
 
 
 #gridspace {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 #gridspace img {
@@ -258,5 +259,34 @@ ul li a.toggle:hover {
     border-radius: 3px;
 }
 
-
+/*Styles for timeline things*/
+#feedback { font-size: 1.4em; }
+#timeline {
+    position: absolute;
+    top: 60px;
+    height: 85px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+  #summer17, #July17, #summer { border-bottom: 4px solid #2e2e2e; }
+  .selectable .ui-selecting { background: #3899DD; color: white; }
+  .selectable .ui-selected { background: #3899DD; color: white; }
+  .selectable { list-style-type: none; margin-top: 0px; margin-left: 20%; padding: 0; width: auto;}
+  .zoomTime { list-style-type: none; margin: 0px; padding: 0; width: 10%; float: left;}
+  .zoomtime li {
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  .selectable li { margin: 6px; padding: 1px; float: left; width: 75px; height: 75px; font-size: 2em; text-align: center; }
+  #seasons li { margin: 6px; padding: 1px; float: left; width: 200px; font-size: 2em; text-align: center;}
+  #years li { }
+  #years img { margin: 25px; }
+  #summer16 { color: #AAAAAA; font-size: 1em;}
+  #summer16 img { margin: 7px 25px 25px 25px;}
+  #spring17 { color: #AAAAAA; font-size: 1em;}
+  #spring17 img { margin: 7px 25px 25px 25px;}
+  #spring18 { color: #AAAAAA; font-size: 1em;}
+  #spring18 img { margin: 7px 25px 25px 25px;}
+  
 
