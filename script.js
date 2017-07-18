@@ -45,8 +45,21 @@ $( function() {
         
      stop: function(e, ui){
         var selector = $(ui.helper).text();
-         
         elementsToSort.push(lookUpFilter[selector]);
+        var temp = lookUpFilter[selector].type;
+        if (temp.endsWith("Group") == true) {
+            if (lookUpFilter[selector].info == "Top"){
+                temp = temp.replace("Group", " High to Low");
+                //console.log(temp);
+                order.push(temp);
+                } else if (lookUpFilter[selector].info == "Bottom"){
+                    temp = temp.replace("Group", " Low to High");
+                    //console.log(temp);
+                    order.push(temp);
+                };
+         };
+         
+        
         sortShowindData(elementsToSort,order);
         
      }
@@ -129,17 +142,21 @@ function appendComponent(data){
                
                 })}
    
-   //if (elementsToSort.length > -1){
-            //$(elementsToSort).each(
-                //function(i){
-                    //var label = lookUpFilter[i].type;
-                    //console.log(selector);
-                    //var value = data[label];
-                    //addLabel = "<p>" + label + ": " + value + "</p>";
-                    //toBeAdded.append(addLabel); 
-                //})}
+ if (elementsToSort.length > -1){
+            $(elementsToSort).each(
+                function(i){
+                    var label = elementsToSort[i].type;
+                    console.log(label);
+                    var value = data[elementsToSort[i].type];
+                    //console.log(value);
+                    if (label.endsWith("Group") == true) {
+                        console.log("hi");
+                    } else {
+                    addLabel = "<p class='label'>" + label + ": " + value + "</p>";
+                    toBeAdded.append(addLabel)};
+                })}
 
-//console.log(elementsToSort.lookUpFilter[selector]);
+
 }
 
 fillGrid();
