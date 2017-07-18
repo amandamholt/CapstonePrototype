@@ -277,3 +277,55 @@ $('.toggle').click(function(e) {
         $this.next().slideToggle(350);
     }
 });
+
+////////////Timeline scripts//////////////////
+//this variable stores the selected time boxes
+var selectedBoxes = [];
+
+//this function empties the selectedBoxes array when another selection is made
+$( ".selectable" ).on( "selectableselecting", function( event, ui ) {
+    selectedBoxes = [];
+});
+
+//this function is called when the selection process has completed
+$( ".selectable" ).on( "selectableselected", function( event, ui ) {
+  var selectedBox = ui.selected.id;
+  selectedBoxes.push(selectedBox);
+  console.log(selectedBoxes)
+} );
+
+//button click listeners
+$("#yearsBtn").click(function() {
+   $("#weeks").hide("fast");
+   $("#seasons").hide("fast");
+   $("#years").show("fast");
+});
+$("#seasonsBtn").click(function() {
+  $("#weeks").hide("fast");
+  $("#years").hide("fast");
+  $("#seasons").show("fast");
+ });
+$("#weeksBtn").click(function() {
+  $("#years").hide("fast");
+  $("#seasons").hide("fast");
+  $("#weeks").show("fast");  
+});
+//display weeks by default
+$(document).ready(function() {
+  $("#years").hide("fast");
+  $("#seasons").hide("fast");
+  $("#weeks").show("fast");  
+});
+
+$( function() {
+    $( ".selectable").selectable();
+  } );
+  $( function() {
+    $( ".selectable li" ).hover(
+    function() {
+      $( this ).removeClass( "ui-state-default" ).addClass( "ui-state-hover" );
+    }, function() {
+      $( this ).removeClass( "ui-state-hover" ).addClass( "ui-state-default" );
+    }
+  );
+  });
