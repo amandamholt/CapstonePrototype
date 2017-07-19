@@ -1,5 +1,4 @@
-var data = {"ProductData":
-    [
+[
  {
    "SKU": 523456789,
    "ProductName": "Basic Black Sinny",
@@ -1400,73 +1399,4 @@ var data = {"ProductData":
    "Remaining InvGroup": "Top",
    "Time": "spring17"
  }
-]}
-
-var lookUpFilter = {
-    "Jeans":{"type":"SubCategory","info":"Jeans"},
-    "Suits":{"type":"SubCategory","info":"Suits"},
-    "Trousers":{"type":"SubCategory","info":"Trousers"},
-    "Joggers":{"type":"SubCategory","info":"Joggers"},
-    
-    "Volume Top 20%":{"type":"VolumeGroup","info":"Top"},
-    "Volume Bottom 20%":{"type":"VolumeGroup","info":"Bottom"},
-    
-    "Margin Top 20%":{"type":"MarginGroup","info":"Top"},
-    "Margin Bottom 20%":{"type":"MarginGroup","info":"Bottom"},
-    
-    "Sell Thru Top 20%":{"type":"Sell ThruGroup","info":"Top"},
-    "Sell Thru Bottom 20%":{"type":"Sell ThruGroup","info":"Bottom"},
-    
-    "Remaining Inv Top 20%":{"type":"Remaining InvGroup","info":"Top"},
-    "Remaining Inv Bottom 20%":{"type":"Remaining InvGroup","info":"Bottom"},
-    
-    "Black":{"type":"Color","info":"Black"},
-    "White":{"type":"Color","info":"White"},
-    "Grey":{"type":"Color","info":"Grey"},
-    "Tan":{"type":"Color","info":"Tan"},
-    "Blue":{"type":"Color","info":"Blue"},
-    "Green":{"type":"Color","info":"Green"},
-    "Red":{"type":"Color","info":"Red"},
-    "Pattern":{"type":"Color","info":"Pattern"},
-    
-    "Slim":{"type":"Style","info":"Slim"},
-    "Skinny":{"type":"Style","info":"Skinny"},
-    "Straight":{"type":"Style","info":"Straight"},
-    "Bootcut":{"type":"Style","info":"Bootcut"},
-    "Cropped":{"type":"Style","info":"Cropped"},
-    
-    "Rinse":{"type":"Wash","info":"Rinse"},
-    "Mid":{"type":"Wash","info":"Mid"},
-    "Light":{"type":"Wash","info":"Light"},
-    "Faded":{"type":"Wash","info":"Faded"},
-    
-    "XYZ Vendor":{"type":"Vendor","info":"XYZ Vendor"},
-    "ABC Vendor":{"type":"Vendor","info":"ABC Vendor"},
-    "123 Vendor":{"type":"Vendor","info":"123 Vendor"},
-    "789 Vendor":{"type":"Vendor","info":"789 Vendor"},
-
-}
-
-var lookUpOrder ={
-   "Volume High to Low":{"type": "Volume", "direction":"Descending"},
-    "Volume Low to High":{"type": "Volume", "direction":"Ascending"},
-    
-    "Margin High to Low":{"type": "Margin", "direction":"Descending"},
-    "Margin Low to High":{"type": "Margin", "direction":"Ascending"},
-    
-    "Sell Thru High to Low":{"type": "Sell Thru", "direction":"Descending"},
-    "Sell Thru Low to High":{"type": "Sell Thru", "direction":"Ascending"},
-    
-    "Remaining Inv High to Low":{"type": "Remaining Inv", "direction":"Descending"},
-    "Remaining Inv Low to High":{"type": "Remaining Inv", "direction":"Ascending"},
-    
-    "Color":{"type": "Color", "direction":"Group"},
-    "Style":{"type": "Style", "direction":"Group"},
-    "Wash":{"type": "Wash", "direction":"Group"},
-    
-    "Group by vendor":{"type": "Vendor", "direction":"Group"},
-    
-}
-
-
-
+]
