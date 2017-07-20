@@ -280,13 +280,13 @@ ul li a.toggle:hover {
   }
   .selectable li { margin: 6px; padding: 1px; float: left; width: 75px; height: 75px; font-size: 2em; text-align: center; }
   #seasons li { margin: 6px; padding: 1px; float: left; width: 200px; font-size: 2em; text-align: center;}
-  #years li { }
-  #years img { margin: 25px; }
-  #summer16 { color: #AAAAAA; font-size: 1em;}
+  #years { color: #AAAAAA; font-size: 1em;}
+  #years img { margin: 5px 25px 25px 20px;}
+ /* #summer16 { color: #AAAAAA; font-size: 1em;}
   #summer16 img { margin: 7px 25px 25px 25px;}
   #spring17 { color: #AAAAAA; font-size: 1em;}
   #spring17 img { margin: 7px 25px 25px 25px;}
   #spring18 { color: #AAAAAA; font-size: 1em;}
-  #spring18 img { margin: 7px 25px 25px 25px;}
+  #spring18 img { margin: 7px 25px 25px 25px;}*/
   
 

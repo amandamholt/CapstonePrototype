@@ -1,5 +1,6 @@
 var selector; 
 
+
 //function to hold the delete task function
 function createOnClickListenerRemove() {
 $(".ui-icon-close").click(function(){
@@ -45,21 +46,8 @@ $( function() {
         
      stop: function(e, ui){
         var selector = $(ui.helper).text();
-        elementsToSort.push(lookUpFilter[selector]);
-        var temp = lookUpFilter[selector].type;
-        if (temp.endsWith("Group") == true) {
-            if (lookUpFilter[selector].info == "Top"){
-                temp = temp.replace("Group", " High to Low");
-                //console.log(temp);
-                order.push(temp);
-                } else if (lookUpFilter[selector].info == "Bottom"){
-                    temp = temp.replace("Group", " Low to High");
-                    //console.log(temp);
-                    order.push(temp);
-                };
-         };
          
-        
+        elementsToSort.push(lookUpFilter[selector]);
         sortShowindData(elementsToSort,order);
         
      }
@@ -112,11 +100,19 @@ var dataShowing = [];
 var elementsToSort = [];
 var order = [];
 
+////  This is the old fillGrid function (fills grid with ALL 70 products)
+// function fillGrid (){
+//     $(data.ProductData).each( function (i){
+//         appendComponent(data.ProductData[i]);
+//         dataShowing.push(data.ProductData[i]);
+// })
+// }
 
+//This is the new fillGrid function, which SHOULD only fill the grid with items in the selected timeBox
 function fillGrid (){
-    $(data.ProductData).each( function (i){
-        appendComponent(data.ProductData[i]);
-        dataShowing.push(data.ProductData[i]);
+    $(dataShowing).each( function (i){
+        appendComponent(dataShowing[i]);
+       // dataShowing.push(data.ProductData[i]);
 })
 }
 
@@ -142,24 +138,37 @@ function appendComponent(data){
                
                 })}
    
- if (elementsToSort.length > -1){
-            $(elementsToSort).each(
-                function(i){
-                    var label = elementsToSort[i].type;
-                    console.log(label);
-                    var value = data[elementsToSort[i].type];
-                    //console.log(value);
-                    if (label.endsWith("Group") == true) {
-                        console.log("hi");
-                    } else {
-                    addLabel = "<p class='label'>" + label + ": " + value + "</p>";
-                    toBeAdded.append(addLabel)};
-                })}
+   //if (elementsToSort.length > -1){
+            //$(elementsToSort).each(
+                //function(i){
+                    //var label = lookUpFilter[i].type;
+                    //console.log(selector);
+                    //var value = data[label];
+                    //addLabel = "<p>" + label + ": " + value + "</p>";
+                    //toBeAdded.append(addLabel); 
+                //})}
 
-
+//console.log(elementsToSort.lookUpFilter[selector]);
 }
 
+//create a variable to store the currently selected timeframe in
+var timeBox = "June26";
+
+sortByTime(timeBox);
+
 fillGrid();
+
+console.log(timeBox);
+
+//fills the dataShowing array with only items that contain the selected time attribute
+function sortByTime(selectedTime){
+  $(".gridTile").remove();
+  $(data.ProductData).each( function (i){
+    if ( data.ProductData[i].Time == selectedTime ) {
+        dataShowing.push(data.ProductData[i]);
+    }
+  })
+};
 
 
 function sortShowindData(sortElements, order){
@@ -174,13 +183,15 @@ function sortShowindData(sortElements, order){
                 howManyAreTrue = howManyAreTrue +1;
             }
         }
-        if(howManyAreTrue == sortElements.length){
+        if((howManyAreTrue == sortElements.length) && (data.ProductData[i].Time == timeBox)){      //&& (data.ProductData[i].Time == timeBox))
             auxiliarArray.push(data.ProductData[i]);
+            console.log("got it!");
         }
     }   
     )
-    
+    //clear old data
     dataShowing = [];
+    //fill with new data
     dataShowing = auxiliarArray;
     
 
@@ -295,21 +306,37 @@ $('.toggle').click(function(e) {
     }
 });
 
+//////////////////////////////////////////////
 ////////////Timeline scripts//////////////////
+//////////////////////////////////////////////
+
 //this variable stores the selected time boxes
 var selectedBoxes = [];
 
-//this function empties the selectedBoxes array when another selection is made
+//this function empties the dataShowing and the selectedBoxes arrays when another selection is made
 $( ".selectable" ).on( "selectableselecting", function( event, ui ) {
+
+    //this ensures only the products with the selected time are in the array:
+    dataShowing = [];
+    //this ensures only the most recently selected time range is in the array:
     selectedBoxes = [];
+
 });
+
 
 //this function is called when the selection process has completed
 $( ".selectable" ).on( "selectableselected", function( event, ui ) {
+
   var selectedBox = ui.selected.id;
   selectedBoxes.push(selectedBox);
-  console.log(selectedBoxes)
+  console.log(selectedBoxes);
+  timeBox = selectedBoxes[(selectedBoxes.length) - 1]; //data.ProductData[0].Time)
+
+  sortByTime(timeBox);
+  console.log(dataShowing)
+  fillGrid();
 } );
+
 
 //button click listeners
 $("#yearsBtn").click(function() {
@@ -346,3 +373,5 @@ $( function() {
     }
   );
   });
+
+
