@@ -152,11 +152,20 @@ function appendComponent(data){
 }
 
 //create a variable to store the currently selected timeframe in
-var timeBox = "June26";
+var timeBox = "July31";
 
-sortByTime(timeBox);
 
-fillGrid();
+$(document).ready(function () {
+  $('#July31').addClass('ui-selected');
+
+  sortByTime(timeBox);
+
+  fillGrid();
+
+});
+
+
+
 
 console.log(timeBox);
 
