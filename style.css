@@ -5,11 +5,39 @@ body {
 }
 
 h5 {
-    color: navy;
-    margin-left: 10px;
+    color: white;
+    text-align: left;
+    background-color: #ABB2D8;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 16pt;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-#page {
+#fixedtop {
+ 
+   /* overflow: hidden;*/
+    background-color: #eee;
+    position: fixed;  /*Set the navbar to fixed position */
+    top: 0!important;/* Position the navbar at the top of the page */
+    left:0!important;
+    width: 100%; /* Full width */
+    /*height: 100%;*/
+
+}
+
+#timeline {
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 0px;
+    display: block;
+    float: left;
+}
+
+
+/*#page {
     background-color: gray;
     background-position: center;
     text-align: center;
@@ -19,7 +47,7 @@ h5 {
     position: relative;
     border-radius: 10px;
     -moz-border-radius: 10px;
-}
+}*/
 
 #page h3 {
     margin-top: 10px;
@@ -27,26 +55,23 @@ h5 {
     position: absolute;
 }
 
-#save {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 0px;
-    right: 3px;
-}
 
+.narrowstuff {
+    width: 80%;
+    float: right;
+}
 
 
 div.tab {
     background-color: lightgrey;
     text-align: center;
     background-position: center;
-    height: 640px;
+    height: 100%;
     width: 20%;
     left: 0;
-    top: 145;
-    position: relative;
-    overflow: hidden;
+    top: 133 !important;
+    position: fixed;
+
 }
 
 
@@ -88,10 +113,10 @@ div.tab button.active {
     position: relative;
     width: 200px;
     height: 100px;
-    top: 60px;
+    top: 60px;*/
     left: 30%;
     margin: 10px;
-    margin-left: -50px;
+    margin-left: 50px;
     padding-bottom: 20px;
 }
 
@@ -103,13 +128,13 @@ div.tab button.active {
     padding-bottom: 20px;
 }
 
-.sortoption {
+/*.sortoption {
     position: absolute
     top: 60px;
     left: 40%;
     margin: 10px;
     padding-bottom: 20px;
-}
+}*/
 
 #menubutton {
     background-color: whitesmoke;
@@ -122,42 +147,39 @@ div.tab button.active {
 }
 
 #subpage {
-    background-color: whitesmoke;
+   
     text-align: center;
     background-position: center;
-    height: 640px;
+    height: 100%;
     width: 80%;
     right: 0;
-    bottom: 0;
-    top: 145;
+    top: 250;
+    z-index: -1;
     position: absolute;
 }
 
 #time {
-    background-color: #e3e4e5;
+
     text-align: center;
     height: 15%;
     width: 100%;
-    top: 0;
-    position: absolute;
 }
 
 
 #gridspace {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 #gridspace img {
-    width: 68px;
-    height: 90px;
-    float: left;
+    width: 100%;
+    display: block;
 }
 
 .gridTile {
-    width: 25%;
-    height: 92px;
-    border: 1px solid black;
-    border-radius: 3px;
+    width: 15%;
+    height: 280px;
+    border: 1px solid #555;
+    border-radius: 1px;
     margin: 10px;
     display: inline-block;
     float: left;
@@ -167,15 +189,37 @@ div.tab button.active {
     font-size: 90%;
     margin-bottom: 3px;
     margin-top: 3px;
+    margin-left: 10px;
     text-align: left;
+}
+
+.sku {
+    color: #AAA;
 }
 
 .productName {
     font-weight: 800;
+    color: #555;
+}
+
+.metrics {
+    display: inline-flex;
+    color: black;
+    width: 30%;
+    float: left;
+    border-right-color: red;
+}
+
+.metricPoint {
+    display: inline-block;
+    border-right: red;
+    text-align: center;
 }
 
 .catHead {
     display: block;
+    text-align: left;
+    text-transform: uppercase;
     clear: left;
 }
 
@@ -221,7 +265,7 @@ ul li {
 ul li a.toggle {
   width: 100%;
   display: block;
-  background: rgba(0, 0, 0, 0.78);
+  background: #333;
   color: #fefefe;
   padding: .75em;
   border-radius: 0.15em;
@@ -231,10 +275,27 @@ ul li a.toggle:hover {
   background: rgba(0, 0, 0, 0.9);
 }
 
+.second {
+    background: #777 !important;
+}
+
+.second:hover {
+    background: #555 !important;
+}
+
+.third {
+    background: #BBB !important;
+}
+
+.third:hover {
+    background: #999 !important;
+}
+
 .draggable {
     list-style-position:inside;
-    border: 1px solid black;
-    border-radius: 3px;
+    border: 1px solid #DDD;
+    border-radius: 0.15em;
+    background: #DDD;
 }
 
 .draggableSort {
@@ -243,10 +304,33 @@ ul li a.toggle:hover {
     border-radius: 3px;
 }
 
+
+
 /* Styles for breadcrumb things */
 
+.showme {
+   margin-left: 3px;
+}
+
+div.breadcrumbs {
+    height: 70px;
+    background: white;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    padding: 5px;
+    padding-top: -10px;
+    margin: 3px;
+    width: 75.4%;
+    margin-left: 12px;
+}
+
+div.breadcrumbs > label {
+    margin-top: 1px;
+}
+
 #sortable {
-    list-style-type: none; margin: 0; padding: 0; margin-bottom: 10px; margin-top: 10px; text-align: left; 
+    list-style-type: none; margin: 0; padding: 0; padding-bottom: 10px; padding-top: 10px; text-align: left; 
+    margin-left: 5px;
 }
 
 #sortable li {
@@ -259,19 +343,66 @@ ul li a.toggle:hover {
     border-radius: 3px;
 }
 
+.save {
+    background-color: #ABB2D8;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+    margin-left: -5px;
+}
+
+.sorterDrop {
+    margin-bottom: -10px;
+}
+
+
 /*Styles for timeline things*/
 #feedback { font-size: 1.4em; }
-#timeline {
-    position: absolute;
-    top: 60px;
-    height: 85px;
-    width: 100%;
-    background-color: #FFFFFF;
-    margin: 0px;
+
+
+/* timeframe select menu*/
+.timeZoomer {
+    width: 10%;
+    float: left;
 }
+
+fieldset {
+    border: none;
+    margin-bottom: 5px;
+    display: inline;
+}
+
+label {
+      display: block;
+      margin: 20px 0 5px 0;
+      text-transform: uppercase;
+}
+
+ul > label {
+    margin-top: -5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.chooser {
+    background: white;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.chooser > label {
+    margin-top: 1px;
+}
+
+.ui-selectmenu-button.ui-button {
+    width: 10em !important;
+}
+
+
   #summer17, #July31, #summer { border-bottom: 4px solid #2e2e2e; }
-  .selectable .ui-selecting { background: #3899DD; color: white; }
-  .selectable .ui-selected { background: #3899DD; color: white; }
+  .selectable .ui-selecting { background: #c9ed5e; color: black; }
+  .selectable .ui-selected { background: #c9ed5e; color: black; }
   .selectable { list-style-type: none; margin-top: 0px; margin-left: 20%; padding: 0; width: auto;}
   .zoomTime { list-style-type: none; margin: 0px; padding: 0; width: 10%; float: left;}
   .zoomtime li {

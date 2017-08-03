@@ -1,0 +1,71 @@
+SKU,ProductName,Picture,SubCategory,Color,Style,Wash,Details,Vendor,Margin,MarginGroup,Volume,VolumeGroup,Sell Thru,Sell ThruGroup,RemainingInv,RemainingInvGroup,Time
+523456789,Basic Black Skinny,basicblackskinny.jpg,Jeans,Black,Slim,Dark,,ABC Vendor,41,None,201,Bottom,35,None,574,None,winter17
+523456790,Carrot Fit Jean,blackslim.jpg,Jeans,Black,Slim,Dark,,789 Vendor,60,Top,1300,Top,65,Top,2000,Top,winter17
+523456791,Blue Basic Jean,bluebasicjeans.jpg,Jeans,Blue,Straight,Light,,123 Vendor,22,None,1400,Top,40,None,3500,Top,winter17
+523456792,Blue Jogger,bluejogger.jpg,Joggers,Blue,Tie-waist,None,Linen,789 Vendor,34,Top,480,None,24,None,2000,Top,spring17
+523456789,Straight Dark Salvaged Jean,bluestraight.jpg,Jeans,Blue,Straight,Rinse,,789 Vendor,18,Bottom,300,Bottom,20,Bottom,1500,Top,winter17
+523456790,Blue Suit Pant,bluesuit.jpg,Suits,Blue,Pleated,None,,ABC Vendor,25,None,401,Bottom,85,None,472,None,July31
+523456791,Camo Trouser,camotrousers.jpg,Trousers,Pattern,Straight,None,Camo,ABC Vendor,23,Top,465,None,24,Bottom,1938,Top,spring17
+523456792,Checked Suit Pant,checked.jpg,Suits,Blue,Cropped,None,,ABC Vendor,26,None,428,Bottom,30,Bottom,1427,Top,spring17
+523456793,Checked Suit Pant,checkedsuit.jpg,Suits,Blue,Slim,None,,ABC Vendor,13,Bottom,327,Bottom,66,Top,495,None,spring17
+523456794,Khaki Chino,chinokhalki.jpg,Trousers,Tan,Straight,None,,123 Vendor,34,Top,327,Bottom,56,Bottom,584,None,spring17
+523456795,Contrasting Suit Pant,contrastingsuit.jpg,Suits,Blue,Slim,None,,ABC Vendor,15,Bottom,1373,Top,43,None,3193,Top,spring17
+523456796,Dark Ripped Jean,darkrippedjeans.jpg,Jeans,Blue,Straight,Dark,,123 Vendor,22,Top,180,Bottom,20,Bottom,900,Top,winter17
+523456797,Dark Slim Jean,darkslimjean.jpg,Jeans,Blue,Slim,Dark,,ABC Vendor,50,Top,175,Bottom,47,Top,372,Bottom,July31
+523456798,Denim Chino,denimchinos.jpg,Trousers,Green,Straight,None,,123 Vendor,24,None,1191,Top,34,None,3503,Top,spring17
+523456799,Desert Jean,desertjeans.jpg,Jeans,Blue,Straight,Light,,123 Vendor,8,None,925,Top,65,Bottom,1423,Top,July31
+523456800,Embroidered Jean,embroideredjeans.jpg,Jeans,Blue,Straight,Mid,Patches,123 Vendor,30,Top,510,None,22,Top,2318,Top,July 31
+523456801,Faded Jean,fadedjeans.jpg,Jeans,Blue,Straight,Faded,Ripped,123 Vendor,30,Bottom,238,Bottom,46,None,517,None,winter17
+523456802,Grey Faded Jean,grayfadedjean.jpg,Jeans,Grey,Straight,Faded,,XYZ Vendor,35,None,385,Bottom,32,None,1203,Top,spring17
+523456803,Grey Faded Jean,grayfadedjeans.jpg,Jeans,Grey,Straight,Faded,Ripped,123 Vendor,30,Top,553,None,35,Bottom,1580,Top,July31
+523456804,Grey Jean,grayjeans.jpg,Jeans,Grey,Straight,Dark,,123 Vendor,23,Bottom,793,Top,65,Top,1220,Top,spring17
+523456805,Grey Patches Jean,graypatches.jpg,Jeans,Grey,Slim,Dark,Patches,789 Vendor,49,Top,920,Top,46,Top,2000,Top,July31
+523456806,Grey Plush Jogger,grayplushjoggers.jpg,Joggers,Grey,Tie-waist,None,Plush,789 Vendor,25,None,769,Top,51,None,1508,Top,July31
+523456807,Grey Slim Jean,grayslimfit.jpg,Jeans,Grey,Slim,Dark,,123 Vendor,24,Top,359,Bottom,22,Top,1632,Top,July31
+523456808,Grey Trouser,graytrousers.jpg,Trousers,Grey,Skinny,None,Cuffed,123 Vendor,25,None,568,None,25,Top,2272,Top,spring17
+523456809,Grey Jogger,jogger.jpg,Joggers,Grey,Tie-waist,None,Linen,789 Vendor,34,Top,557,None,34,Top,1638,Top,spring17
+523456810,Khaki Zip Trouser,khalkizips.jpg,Trousers,Green,Skinny,None,Zippers,123 Vendor,35,None,789,Top,13,Bottom,6069,Top,spring17
+523456811,Kneecap Jean,kneecapjeans.jpg,Jeans,Blue,Straight,Light,"Ripped, Patches",ABC Vendor,45,None,262,Bottom,46,None,570,None,winter17
+523456812,Lavender Trouser,lavendertrousers.jpg,Trousers,Blue,Skinny,None,Cuffed,123 Vendor,23,None,108,Bottom,9,None,1200,Top,spring17
+523456813,Light Blue Jean,lightbluejeans.jpg,Jeans,Blue,Straight,Mid,,ABC Vendor,66,None,399,Bottom,33,Bottom,1209,Top,July31
+523456814,Light Faded Jean,lightfadedjean.jpg,Jeans,Blue,Straight,Faded,,XYZ Vendor,40,None,724,None,37,None,1957,Top,winter17
+523456815,Light Ripped Jean,lightrippedjeans.jpg,Jeans,Blue,Straight,Light,Ripped,ABC Vendor,30,Bottom,148,Bottom,87,Bottom,170,Bottom,July31
+523456816,Light Raw Jean,lightrippedraw.jpg,Jeans,Blue,Slim,Light,Ripped,XYZ Vendor,34,None,575,None,31,None,1855,Top,winter17
+523456817,Light Slim Jean,lightslimjean.jpg,Jeans,Blue,Slim,Light,,XYZ Vendor,47,Top,246,Bottom,44,None,559,None,July31
+523456818,Light Twist Jean,lighttwist.jpg,Jeans,Blue,Straight,Light,Ripped,XYZ Vendor,26,None,293,Bottom,23,Bottom,1274,Top,winter17
+523456819,Patches Jean,patchesjeans.jpg,Jeans,Blue,Slim,Dark,"Ripped, Patches",ABC Vendor,30,Bottom,342,Bottom,88,None,389,Bottom,July31
+523456820,Pleated Jogger,pleated.jpg,Joggers,Blue,Cropped,None,Linen,789 Vendor,23,Bottom,823,Top,34,None,2421,Top,spring17
+523456821,Plush Trouser,plushtrousers.jpg,Trousers,Blue,Tie-waist,None,,123 Vendor,43,None,451,None,23,Bottom,1961,Top,spring17
+523456822,Raw Edge Jean,rawedge.jpg,Jeans,Black,Slim,Dark,,789 Vendor,17,Bottom,440,Bottom,22,Bottom,2000,Top,winter17
+523456823,Raw Ripped Jean,rawrippedjeans.jpg,Jeans,Blue,Straight,Light,Ripped,ABC Vendor,30,None,264,Bottom,43,None,614,None,July31
+523456824,Red Trouser,redtrousers.jpg,Trousers,Red,Skinny,None,Cuffed,XYZ Vendor,24,Top,345,Bottom,45,Bottom,767,Top,July31
+523456825,Regular Basic Blue Jean,regularbasicblue.jpg,Jeans,Blue,Straight,Mid,,ABC Vendor,28,Bottom,171,Bottom,25,None,684,None,winter17
+523456826,Regular Basic Jean,regularbasicjeans.jpg,Jeans,Black,Straight,Dark,,ABC Vendor,43,None,525,None,40,None,1313,Top,winter17
+323456789,Weekday Blue Jean,regularblue.jpg,Jeans,Blue,Straight,Mid,,ABC Vendor,42,None,800,Top,50,Top,1600,Top,winter17
+323456790,Ripped Pleated Jean,rippedpleatsjeans.jpg,Jeans,Blue,Slim,Mid,Ripped,ABC Vendor,23,Top,144,Bottom,11,None,1309,Top,July31
+323456791,Seersucker Suit,seersucker.jpg ,Suits,Blue,Cropped,None,,XYZ Vendor,35,None,360,Bottom,34,None,1059,Top,winter18
+323456792,Selvedge Jean,selvedge.jpg,Jeans,Blue,Straight,Dark,,ABC Vendor,20,Bottom,243,Bottom,17,Bottom,1429,Top,winter17
+323456793,Pink Skinny Trouser,skinnytrouserpink.jpg,Trousers,Pink,Skinny,None,Cuffed,XYZ Vendor,55,Top,714,None,2,Bottom,35700,Top,winter18
+323456794,Blue Skinny Trouser,skinnytrousers.jpg,Trousers,Blue,Skinny,None,Cuffed,XYZ Vendor,33,Bottom,751,Top,45,None,1669,Top,winter18
+323456795,Skull Suit Pant,skullsuit.jpg,Suits,Pattern,Cropped,None,,ABC Vendor,25,None,197,Bottom,23,Bottom,857,Top,spring17
+323456796,Slim Dark Jean,slimdarkbluejeans.jpg,Jeans,Blue,Straight,Dark,,789 Vendor,23,Top,323,Bottom,43,Bottom,751,Top,winter17
+323456797,Slim Dark Trouser,slimfitdark.jpg,Trousers,Black,Slim,None,,XYZ Vendor,10,Top,153,Bottom,23,Top,665,None,July31
+323456798,Slim Grey Trouser,slimfitgray.jpg,Trousers,Grey,Slim,None,,XYZ Vendor,13,Bottom,10,Bottom,22,Bottom,45,Bottom,winter18
+323456799,Slim Navy Trouser,slimfitnavy.jpg,Trousers,Blue,Slim,None,,XYZ Vendor,13,Top,449,Bottom,11,None,4082,Top,July24
+323456800,Slim Tan Trouser,slimfittan.jpg,Trousers,Tan,Slim,None,,XYZ Vendor,13,None,234,Bottom,8,Bottom,2925,Top,July24
+323456801,Slimfit White Jean,slimfitwhite.jpg,Jeans,White,Slim,Light,,789 Vendor,18,None,394,Bottom,21,Bottom,1876,Top,July24
+223456789,Slim Grey Flex Jean,slimgray.jpg,Jeans,Grey,Slim,Mid,,XYZ Vendor,55,Top,1000,Top,60,Top,1667,Top,July31
+223456790,Carrot Fit Jean,slimjeans.jpg,Jeans,Blue,Straight,Mid,,789 Vendor,11,None,127,Bottom,10,Bottom,1270,Top,winter17
+223456791,Slim Vintage Jean,slimvintage.jpg,Jeans,Blue,Straight,Mid,,ABC Vendor,39,None,613,None,36,None,1703,Top,winter17
+123456789,Stretch Jean,stretch.jpg,Jeans,Blue,Slim,Light,,XYZ Vendor,30,None,200,Bottom,30,None,667,None,winter17
+123456790,Studio Jean,studiojeans.jpg,Jeans,Blue,Straight,Mid,,789 Vendor,23,None,252,Bottom,13,Bottom,1938,Top,spring17
+123456791,Slim Tan Chino,tanchinos.jpg,Trousers,Tan,Cropped,None,,XYZ Vendor,14,None,368,Bottom,55,None,669,None,July24
+123456792,Tan Trouser,tantrousers.jpg,Trousers,Tan,Skinny,None,Cuffed,XYZ Vendor,15,Bottom,115,Bottom,76,None,151,Bottom,July24
+123456793,Tech Jogger,techjogger.jpg,Joggers,Black,Tie-waist,None,Cotton,789 Vendor,23,Top,231,Bottom,23,Bottom,1004,Top,July31
+435456789,Black Traveller Jean,traveler.jpg,Jeans,Black,Slim,Rinse,,123 Vendor,53,Top,500,None,40,Top,1250,None,winter17
+435456790,Twist Jean,twistjeans.jpg,Jeans,Blue,Straight,Mid,Ripped,789 Vendor,24,None,175,Bottom,15,Top,1167,Top,winter17
+435456791,White Trouser,white.jpg,Trousers,White,Straight,None,,XYZ Vendor,15,Bottom,850,Top,90,Bottom,944,Top,July24
+435456792,White Jogger,whitejogger.jpg,Joggers,White,Tie-waist,None,Linen,ABC Vendor,23,Bottom,363,Bottom,23,None,1578,Top,July31
+435456793,White Ripped Jean,whiteripped.jpg,Jeans,White,Straight,Light,Ripped,789 Vendor,35,None,331,Bottom,23,Bottom,1439,Top,spring17
+435456794,White Zip Trouser,whitezips.jpg,Trousers,Green,Skinny,None,,XYZ Vendor,15,None,200,Bottom,23,Top,870,Top,winter17
+435456795,Zip Jogger,zipjogger.jpg,Joggers,Blue,Tie-waist,None,Zippers,ABC Vendor,24,Top,116,Bottom,23,Bottom,504,None,spring17

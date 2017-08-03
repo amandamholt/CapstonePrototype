@@ -7,15 +7,27 @@
 </head>
 
 <body>
-    <h5>LH Ventures Capstone Prototype</h5>
-    <div id="page" class="mainpgelements">
-        <img id="save" src="view_folder.png" alt="saved view folder" />
-        <h3>DaVinci</h3>
+    <div id="fixedtop"><h5>Twenty20</h5>
+    
 
         <div id="timeline">
 
           <!-- timeline picker buttons -->
-          <ul class="zoomTime">
+            
+         <form action="#" class="timeZoomer">
+ 
+            <fieldset>
+            <label for="speed">TIMEFRAME</label>
+            <select name="timeframe" id="timeSelect">
+            <option selected="selected" value="weeks">Weeks</option>
+            <option value="months" >Months</option>
+            <option value="seasons">Seasons</option>
+            <option value="years">Years</option>
+            </select>
+             </fieldset>
+             
+            </form>
+          <!--<ul class="zoomTime">
             <li>
               <button id="yearsBtn">Years</button>
             </li>
@@ -25,7 +37,7 @@
             <li>
               <button id="weeksBtn">Weeks</button>
             </li>
-          </ul>
+          </ul>-->
 
           <!-- Weeks boxes (from June 19 to August 14)-->
           <ol class="selectable" id="weeks">
@@ -64,6 +76,95 @@
 
 
         </div>
+        
+        <div class="narrowstuff">
+           <div id="time" class="subpagecontent">
+                <div class="breadcrumbs">
+                <ul id="sortable" style="height:100%;">
+                    <label>SHOW ME</label>
+                    <li class="breadcrumbs ui-state-default second" style="color:white"><span class="ui-icon ui-icon-close"></span> Mens</li>
+                    <li class="breadcrumbs ui-state-default third" style="color:white"><span class="ui-icon ui-icon-close"></span> Bottoms</li>
+                </ul>
+                </div>
+               
+    </div>
+    <div class="sortsections">
+            
+                 <form action="#" class="sorterDrop">
+            <fieldset>
+            <span class = "chooser" style="display:inline-block">
+
+            <label for="speed">Order By</label>
+            <select name="orderBy" id="orderSelect">
+            <option disabled selected>Order by</option>
+            <optgroup label="High to Low">
+            <option value="Margin High to Low">Margin</option>
+            <option value="Volume High to Low">Volume</option>
+            <option value="Sell Thru High to Low">Sell-Through Rate</option>
+            <option value="RemainingInv High to Low">Remaining Inventory</option>
+            <optgroup label="Low to High">
+            <option value="Margin Low to High">Margin</option>
+            <option value="Volume Low to High">Volume</option>
+            <option value="Sell Thru Low to High">Sell-Through Rate</option>
+            <option value="RemainingInv Low to High">Remaining Inventory</option>
+            
+                </select></span>
+            <span class = "chooser" style="display:inline-block">
+   
+            <label for="speed">Group By</label>
+            <select name="groupBy" id="groupSelect">
+            <option disabled selected>Group by</option>
+            <option value="Color">Color</option>
+            <option value="Style">Style</option>
+            <option value="Wash">Wash</option>
+            <option value="Group by vendor">Vendor</option>
+            
+                </select></span>
+                
+            <span class = "chooser" style="display:inline-block">
+   
+            <label for="speed">View</label>
+            <select name="cardsPer" id="cardSelect">
+            <option disabled selected>5 Cards/row</option>
+            <option>4 Cards/row</option>
+            <option>3 Cards/row</option>
+          
+            
+                </select></span>
+                
+            <span class = "chooser" id="sumMetrics" style="display:inline-block">
+   
+            <label for="speed">Summary Metrics</label>
+                <div>
+                    <span style="display:inline-block" class="sumMetrics">
+                        <select style="width: 30%" name="margNum" id="margSum">
+                        <option disabled selected>Margin: 25%</option>
+                        <option>Margin: 28%</option>
+                        <option>Margin: 30%</option></select>
+                    </span>
+                    <span style="display:inline-block" class="sumMetrics">
+                        <select name="volNum" id="volSum">
+                        <option disabled selected>Volume: 8729</option>
+                        <option>Volume: 9729</option>
+                        <option>Volume: 10367</option></select>
+                    </span>
+                    <span style="display:inline-block" class="sumMetrics">
+                        <select name="invNum" id="invSum">
+                        <option disabled selected>Inv: 145236</option>
+                        <option>Inv: 28746</option>
+                        <option>Inv: 17593</option></select>
+                    </span>
+                </div>
+            </span>
+             </fieldset>
+                     <span style="display:inline-block" class="save">SAVE VIEW</span>
+             
+            </form>
+            </div>
+            </div>
+        
+        </div>
+  
 
 
 
@@ -73,8 +174,8 @@
 
 
         <div class="tab">
-            <button class="tablinks" onclick="openTab(event, 'select')" id="defaultOpen">SELECT</button>
-            <button class="tablinks" onclick="openTab(event, 'sort')">SORT</button>
+            <button class="tablinks" onclick="openTab(event, 'select')" id="defaultOpen">SELECTIONS</button>
+            
             
             <div id="select" class="tabcontent">
 
@@ -84,21 +185,21 @@
     <li>
     <a class="toggle" href="javascript:void(0);">Category +</a>
     <ul class="inner">
-      <li><a href="#" class="toggle">Mens +</a>
+      <li><a href="#" class="toggle second">Mens +</a>
           <ul class="inner">
-          <li><a href="#" class="toggle">Tops</a></li>
-            <li><a href="#" class="toggle">Bottoms +</a>
+          <li><a href="#" class="toggle third">Tops +</a></li>
+            <li><a href="#" class="toggle third">Bottoms +</a>
                 <ul class="inner">
                 <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Suits</li>
                 <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Jeans</li>
                 <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Trousers</li>
                 <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Joggers</li>
                 </ul></li>
-          <li><a href="#" class="toggle">Accessories</a></li>
-          <li><a href="#" class="toggle">Shoes</a></li>
+          <li><a href="#" class="toggle third">Accessories+</a></li>
+          <li><a href="#" class="toggle third">Shoes+</a></li>
         </ul></li>
-        <li><a href="#" class="toggle">Womens</a></li>
-      <li><a href="#" class="toggle">Kids</a></li>
+        <li><a href="#" class="toggle second">Womens</a></li>
+      <li><a href="#" class="toggle second">Kids</a></li>
     </ul>
   </li>
     
@@ -106,25 +207,25 @@
     <li>
     <a class="toggle" href="javascript:void(0);">Sales Metrics +</a>
     <ul class="inner">
-      <li><a href="#" class="toggle">Volume Sold +</a>
+      <li><a href="#" class="toggle second">Volume Sold +</a>
           <ul class="inner">
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Volume Top 20%</li>
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Volume Bottom 20%</li>
         </ul></li>
-      <li><a href="#" class="toggle">Margin +</a>
+      <li><a href="#" class="toggle second">Margin +</a>
          <ul class="inner">
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Margin Top 20%</li>
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Margin Bottom 20%</li>
         </ul></li>
-      <li><a href="#" class="toggle">Sell-Through Rate +</a>
+      <li><a href="#" class="toggle second">Sell-Through Rate +</a>
          <ul class="inner">
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Sell Thru Top 20%</li>
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Sell Thru Bottom 20%</li>
         </ul></li>
-      <li><a href="#" class="toggle">Remaining Inventory +</a>
+      <li><a href="#" class="toggle second">RemainingInventory +</a>
          <ul class="inner">
-          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Remaining Inv Top 20%</li>
-          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Remaining Inv Bottom 20%</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>RemainingInv Top 20%</li>
+          <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>RemainingInv Bottom 20%</li>
         </ul></li>
     </ul>
   </li>
@@ -132,7 +233,7 @@
   <li>
     <a class="toggle" href="javascript:void(0);">Attributes +</a>
     <ul class="inner">
-      <li><a href="#" class="toggle">Color +</a>
+      <li><a href="#" class="toggle second">Color +</a>
           <ul class="inner">
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Black</li>
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>White</li>
@@ -144,7 +245,7 @@
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Pink</li>
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Pattern</li>
         </ul></li>
-       <li><a href="#" class="toggle">Style +</a>
+       <li><a href="#" class="toggle second">Style +</a>
           <ul class="inner">
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Slim</li>
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Skinny</li>
@@ -152,7 +253,7 @@
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Tie-waist</li>
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Cropped</li>
         </ul></li>
-      <li><a href="#" class="toggle">Wash +</a>
+      <li><a href="#" class="toggle second">Wash +</a>
           <ul class="inner">
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Rinse</li>
           <li class="draggable"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Mid</li>
@@ -236,10 +337,10 @@
           <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Sell Thru High to Low</li>
           <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Sell Thru Low to High</li>
         </ul></li>
-      <li><a href="#" class="toggle">Remaining Inventory +</a>
+      <li><a href="#" class="toggle">RemainingInventory +</a>
          <ul class="inner">
-          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Remaining Inv High to Low</li>
-          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>Remaining Inv Low to High</li>
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>RemainingInv High to Low</li>
+          <li class="draggableSort"><span class="ui-icon ui-icon-grip-dotted-vertical"></span>RemainingInv Low to High</li>
         </ul></li>
     </ul>
   </li>
@@ -292,16 +393,18 @@
          
                <!--<button id="menubutton">SAVE</button>-->
         </div>
-        <div id="subpage">
-            <div id="time" class="subpagecontent">
-                <ul id="sortable" style="height:100%;">
-                <li class="breadcrumbs ui-state-disabled">
-                    <span class="ui-icon ui-icon-close"></span>
-                    Winter 2017</li>
-                    <li class="breadcrumbs ui-state-default"><span class="ui-icon ui-icon-close"></span> Mens</li>
-                    <li class="breadcrumbs ui-state-default"><span class="ui-icon ui-icon-close"></span> Bottoms</li>
-                </ul>
-            </div>
+    
+     
+    
+  
+    
+    
+    
+    <div id="subpage">
+            
+            
+            
+            
             <div class="subpagecontent">
             </div>
             <div id="gridspace">
@@ -309,10 +412,11 @@
                 </ul>
             </div>
         </div>
-    </div>
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="jquery.sticky.js"></script>
     <script type="text/javascript" src="productdata.js"></script>
     <script src="script.js" defer></script>
 </body>

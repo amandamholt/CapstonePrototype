@@ -135,10 +135,17 @@ function appendComponent(data){
     var imageLocation = "product_images/" + data.Picture;
     productImage.attr('src', imageLocation);
     var title = $('<p class="productName"></p>').text(data.ProductName);
-    var skuNum = $('<p></p>').text("SKU# " + data.SKU);
-    var toBeAdded = $('<li class="gridTile"></li>').appendTo("#productGrid").append(productImage, title, skuNum);
+    var skuNum = $('<p class="sku"></p>').text("SKU# " + data.SKU);
     
-    if (order.length > -1) 
+    var marg = $('<p class="metricPoint"></p>').text("Margin " + data.Margin + "%");
+    var vol = $('<p class="metricPoint"></p>').text("Volume " + data.Volume);
+    var inv = $('<p class="metricPoint"></p>').text("Inventory " + data.RemainingInv);
+    var metrics = $('<div class="metrics"></div>').append(marg, vol, inv);
+    
+    
+    var toBeAdded = $('<li class="gridTile"></li>').appendTo("#productGrid").append(title, skuNum, productImage, metrics);
+    
+/*    if (order.length > -1) 
     {
            
         $(order).each(
@@ -163,10 +170,40 @@ function appendComponent(data){
                     } else {
                     addLabel = "<p class='label'>" + label + ": " + value + "</p>";
                     toBeAdded.append(addLabel)};
-                })}
+                })}*/
 
 
 }
+
+
+$( function() {
+    $( "#orderSelect" ).selectmenu({
+            change: function( event, data ) {
+                var sorter = data.item.value;
+                order.push(sorter);
+                sortShowindData(elementsToSort,order);
+            }});          
+  } );
+
+$( function() {
+    $( "#groupSelect" ).selectmenu({
+            change: function( event, data ) {
+                var sorter = data.item.value;
+                order.push(sorter);
+                sortShowindData(elementsToSort,order);
+            }});          
+  } );
+
+
+$( function() {
+    $( "#cardSelect" ).selectmenu();          
+  } );
+
+$( function() {
+    $( "#margSum" ).selectmenu();    
+    $( "#volSum" ).selectmenu();
+    $( "#invSum" ).selectmenu();
+  } );
 
 //create a variable to store the currently selected timeframe in
 var timeBox = "July31";
@@ -198,9 +235,9 @@ function sortByTime(selectedTime){
 
 
 function sortShowindData(sortElements, order){
-    $(".label").remove(); 
-    $(".gridTile").remove();
-    $(".catHead").remove();
+    $(".label").slideDown(10000).remove(); 
+    $(".gridTile").slideDown(500).remove();
+    $(".catHead").fadeOut(500).remove();
      var auxiliarArray = [];
     $(data.ProductData).each( function (i){
         var howManyAreTrue = 0;
@@ -366,7 +403,24 @@ $( ".selectable" ).on( "selectableselected", function( event, ui ) {
 
 
 //button click listeners
-$("#yearsBtn").click(function() {
+$( function() {
+    $( "#timeSelect" ).selectmenu({
+            change: function( event, data ) {
+                if (data.item.value == "years"){
+                    $("#weeks").hide("fast");
+                    $("#seasons").hide("fast");
+                    $("#years").show("fast");
+                } else if (data.item.value == "weeks"){
+                    $("#years").hide("fast");
+                      $("#seasons").hide("fast");
+                      $("#weeks").show("fast"); 
+                }
+            }});          
+  } );
+
+
+
+/*$("#yearsBtn").click(function() {
    $("#weeks").hide("fast");
    $("#seasons").hide("fast");
    $("#years").show("fast");
@@ -380,7 +434,7 @@ $("#weeksBtn").click(function() {
   $("#years").hide("fast");
   $("#seasons").hide("fast");
   $("#weeks").show("fast");  
-});
+});*/
 //display weeks by default
 $(document).ready(function() {
   $("#years").hide("fast");
@@ -400,5 +454,6 @@ $( function() {
     }
   );
   });
+
 
 

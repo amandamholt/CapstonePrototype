@@ -12,12 +12,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 41,
    "MarginGroup": "None",
-   "Volume": 306,
+   "Volume": 201,
    "VolumeGroup": "Bottom",
    "Sell Thru": 35,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 874,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 574,
+   "RemainingInvGroup": "None",
    "Time": "winter17"
  },
  {
@@ -36,8 +36,8 @@ var data = {"ProductData":
    "VolumeGroup": "Top",
    "Sell Thru": 65,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 2000,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 2000,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -56,9 +56,9 @@ var data = {"ProductData":
    "VolumeGroup": "Top",
    "Sell Thru": 40,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 3500,
-   "Remaining InvGroup": "Top",
-   "Time": "winter18"
+   "RemainingInv": 3500,
+   "RemainingInvGroup": "Top",
+   "Time": "winter17"
  },
  {
    "SKU": 523456792,
@@ -76,8 +76,8 @@ var data = {"ProductData":
    "VolumeGroup": "None",
    "Sell Thru": 24,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 2000,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 2000,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -96,8 +96,8 @@ var data = {"ProductData":
    "VolumeGroup": "Bottom",
    "Sell Thru": 20,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 1500,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1500,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -112,12 +112,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 25,
    "MarginGroup": "None",
-   "Volume": 613,
-   "VolumeGroup": "None",
+   "Volume": 401,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 85,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 721,
-   "Remaining InvGroup": "None",
+   "RemainingInv": 472,
+   "RemainingInvGroup": "None",
    "Time": "July31"
  },
  {
@@ -132,12 +132,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 23,
    "MarginGroup": "Top",
-   "Volume": 1286,
-   "VolumeGroup": "Top",
+   "Volume": 465,
+   "VolumeGroup": "None",
    "Sell Thru": 24,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 5358,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1938,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -152,12 +152,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 26,
    "MarginGroup": "None",
-   "Volume": 233,
+   "Volume": 428,
    "VolumeGroup": "Bottom",
    "Sell Thru": 30,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 777,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1427,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -172,12 +172,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 13,
    "MarginGroup": "Bottom",
-   "Volume": 138,
+   "Volume": 327,
    "VolumeGroup": "Bottom",
    "Sell Thru": 66,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 209,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInv": 495,
+   "RemainingInvGroup": "None",
    "Time": "spring17"
  },
  {
@@ -192,12 +192,12 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 34,
    "MarginGroup": "Top",
-   "Volume": 165,
+   "Volume": 327,
    "VolumeGroup": "Bottom",
    "Sell Thru": 56,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 295,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInv": 584,
+   "RemainingInvGroup": "None",
    "Time": "spring17"
  },
  {
@@ -212,12 +212,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 15,
    "MarginGroup": "Bottom",
-   "Volume": 781,
+   "Volume": 1373,
    "VolumeGroup": "Top",
    "Sell Thru": 43,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1816,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 3193,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -232,13 +232,13 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 22,
    "MarginGroup": "Top",
-   "Volume": 387,
+   "Volume": 180,
    "VolumeGroup": "Bottom",
    "Sell Thru": 20,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 1935,
-   "Remaining InvGroup": "Top",
-   "Time": "winter18"
+   "RemainingInv": 900,
+   "RemainingInvGroup": "Top",
+   "Time": "winter17"
  },
  {
    "SKU": 523456797,
@@ -252,12 +252,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 50,
    "MarginGroup": "Top",
-   "Volume": 450,
-   "VolumeGroup": "None",
+   "Volume": 175,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 47,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 957,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 372,
+   "RemainingInvGroup": "Bottom",
    "Time": "July31"
  },
  {
@@ -272,12 +272,12 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 24,
    "MarginGroup": "None",
-   "Volume": 594,
-   "VolumeGroup": "None",
+   "Volume": 1191,
+   "VolumeGroup": "Top",
    "Sell Thru": 34,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1747,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 3503,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -292,12 +292,12 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 8,
    "MarginGroup": "None",
-   "Volume": 641,
-   "VolumeGroup": "None",
+   "Volume": 925,
+   "VolumeGroup": "Top",
    "Sell Thru": 65,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 986,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1423,
+   "RemainingInvGroup": "Top",
    "Time": "July31"
  },
  {
@@ -312,13 +312,13 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 30,
    "MarginGroup": "Top",
-   "Volume": 199,
-   "VolumeGroup": "Bottom",
+   "Volume": 510,
+   "VolumeGroup": "None",
    "Sell Thru": 22,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 905,
-   "Remaining InvGroup": "Top",
-   "Time": "winter18"
+   "RemainingInv": 2318,
+   "RemainingInvGroup": "Top",
+   "Time": "July 31"
  },
  {
    "SKU": 523456801,
@@ -332,13 +332,13 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 30,
    "MarginGroup": "Bottom",
-   "Volume": 161,
+   "Volume": 238,
    "VolumeGroup": "Bottom",
    "Sell Thru": 46,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 350,
-   "Remaining InvGroup": "Bottom",
-   "Time": "winter18"
+   "RemainingInv": 517,
+   "RemainingInvGroup": "None",
+   "Time": "winter17"
  },
  {
    "SKU": 523456802,
@@ -352,13 +352,13 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 35,
    "MarginGroup": "None",
-   "Volume": 344,
+   "Volume": 385,
    "VolumeGroup": "Bottom",
    "Sell Thru": 32,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1075,
-   "Remaining InvGroup": "Top",
-   "Time": "winter17"
+   "RemainingInv": 1203,
+   "RemainingInvGroup": "Top",
+   "Time": "spring17"
  },
  {
    "SKU": 523456803,
@@ -372,12 +372,12 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 30,
    "MarginGroup": "Top",
-   "Volume": 353,
-   "VolumeGroup": "Bottom",
+   "Volume": 553,
+   "VolumeGroup": "None",
    "Sell Thru": 35,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 1009,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1580,
+   "RemainingInvGroup": "Top",
    "Time": "July31"
  },
  {
@@ -392,13 +392,13 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 23,
    "MarginGroup": "Bottom",
-   "Volume": 807,
+   "Volume": 793,
    "VolumeGroup": "Top",
    "Sell Thru": 65,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 1242,
-   "Remaining InvGroup": "Top",
-   "Time": "July24"
+   "RemainingInv": 1220,
+   "RemainingInvGroup": "Top",
+   "Time": "spring17"
  },
  {
    "SKU": 523456805,
@@ -416,9 +416,9 @@ var data = {"ProductData":
    "VolumeGroup": "Top",
    "Sell Thru": 46,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 2000,
-   "Remaining InvGroup": "Top",
-   "Time": "winter17"
+   "RemainingInv": 2000,
+   "RemainingInvGroup": "Top",
+   "Time": "July31"
  },
  {
    "SKU": 523456806,
@@ -432,12 +432,12 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 25,
    "MarginGroup": "None",
-   "Volume": 909,
+   "Volume": 769,
    "VolumeGroup": "Top",
    "Sell Thru": 51,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1782,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1508,
+   "RemainingInvGroup": "Top",
    "Time": "July31"
  },
  {
@@ -452,13 +452,13 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 24,
    "MarginGroup": "Top",
-   "Volume": 466,
-   "VolumeGroup": "None",
+   "Volume": 359,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 22,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 2118,
-   "Remaining InvGroup": "Top",
-   "Time": "July24"
+   "RemainingInv": 1632,
+   "RemainingInvGroup": "Top",
+   "Time": "July31"
  },
  {
    "SKU": 523456808,
@@ -472,12 +472,12 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 25,
    "MarginGroup": "None",
-   "Volume": 226,
-   "VolumeGroup": "Bottom",
+   "Volume": 568,
+   "VolumeGroup": "None",
    "Sell Thru": 25,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 904,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 2272,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -492,12 +492,12 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 34,
    "MarginGroup": "Top",
-   "Volume": 208,
-   "VolumeGroup": "Bottom",
+   "Volume": 557,
+   "VolumeGroup": "None",
    "Sell Thru": 34,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 612,
-   "Remaining InvGroup": "None",
+   "RemainingInv": 1638,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -512,12 +512,12 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 35,
    "MarginGroup": "None",
-   "Volume": 795,
+   "Volume": 789,
    "VolumeGroup": "Top",
    "Sell Thru": 13,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 6115,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 6069,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -532,13 +532,13 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 45,
    "MarginGroup": "None",
-   "Volume": 279,
+   "Volume": 262,
    "VolumeGroup": "Bottom",
    "Sell Thru": 46,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 607,
-   "Remaining InvGroup": "None",
-   "Time": "July24"
+   "RemainingInv": 570,
+   "RemainingInvGroup": "None",
+   "Time": "winter17"
  },
  {
    "SKU": 523456812,
@@ -552,12 +552,12 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 23,
    "MarginGroup": "None",
-   "Volume": 134,
+   "Volume": 108,
    "VolumeGroup": "Bottom",
    "Sell Thru": 9,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1489,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1200,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -572,13 +572,13 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 66,
    "MarginGroup": "None",
-   "Volume": 473,
-   "VolumeGroup": "None",
+   "Volume": 399,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 33,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 1433,
-   "Remaining InvGroup": "Top",
-   "Time": "July24"
+   "RemainingInv": 1209,
+   "RemainingInvGroup": "Top",
+   "Time": "July31"
  },
  {
    "SKU": 523456814,
@@ -592,12 +592,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 40,
    "MarginGroup": "None",
-   "Volume": 225,
-   "VolumeGroup": "Bottom",
+   "Volume": 724,
+   "VolumeGroup": "None",
    "Sell Thru": 37,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 608,
-   "Remaining InvGroup": "None",
+   "RemainingInv": 1957,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -612,13 +612,13 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 30,
    "MarginGroup": "Bottom",
-   "Volume": 174,
+   "Volume": 148,
    "VolumeGroup": "Bottom",
    "Sell Thru": 87,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 200,
-   "Remaining InvGroup": "Bottom",
-   "Time": "July24"
+   "RemainingInv": 170,
+   "RemainingInvGroup": "Bottom",
+   "Time": "July31"
  },
  {
    "SKU": 523456816,
@@ -632,12 +632,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 34,
    "MarginGroup": "None",
-   "Volume": 455,
+   "Volume": 575,
    "VolumeGroup": "None",
    "Sell Thru": 31,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1468,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1855,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -652,12 +652,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 47,
    "MarginGroup": "Top",
-   "Volume": 238,
+   "Volume": 246,
    "VolumeGroup": "Bottom",
    "Sell Thru": 44,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 541,
-   "Remaining InvGroup": "None",
+   "RemainingInv": 559,
+   "RemainingInvGroup": "None",
    "Time": "July31"
  },
  {
@@ -672,13 +672,13 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 26,
    "MarginGroup": "None",
-   "Volume": 238,
+   "Volume": 293,
    "VolumeGroup": "Bottom",
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 1035,
-   "Remaining InvGroup": "Top",
-   "Time": "winter18"
+   "RemainingInv": 1274,
+   "RemainingInvGroup": "Top",
+   "Time": "winter17"
  },
  {
    "SKU": 523456819,
@@ -692,13 +692,13 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 30,
    "MarginGroup": "Bottom",
-   "Volume": 565,
-   "VolumeGroup": "None",
+   "Volume": 342,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 88,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 642,
-   "Remaining InvGroup": "None",
-   "Time": "July24"
+   "RemainingInv": 389,
+   "RemainingInvGroup": "Bottom",
+   "Time": "July31"
  },
  {
    "SKU": 523456820,
@@ -712,12 +712,12 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 23,
    "MarginGroup": "Bottom",
-   "Volume": 1029,
+   "Volume": 823,
    "VolumeGroup": "Top",
    "Sell Thru": 34,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 3026,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 2421,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -732,12 +732,12 @@ var data = {"ProductData":
    "Vendor": "123 Vendor",
    "Margin": 43,
    "MarginGroup": "None",
-   "Volume": 377,
-   "VolumeGroup": "Bottom",
+   "Volume": 451,
+   "VolumeGroup": "None",
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 1639,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1961,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -756,8 +756,8 @@ var data = {"ProductData":
    "VolumeGroup": "Bottom",
    "Sell Thru": 22,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 2000,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 2000,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -772,13 +772,13 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 30,
    "MarginGroup": "None",
-   "Volume": 93,
+   "Volume": 264,
    "VolumeGroup": "Bottom",
    "Sell Thru": 43,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 216,
-   "Remaining InvGroup": "Bottom",
-   "Time": "July24"
+   "RemainingInv": 614,
+   "RemainingInvGroup": "None",
+   "Time": "July31"
  },
  {
    "SKU": 523456824,
@@ -792,12 +792,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 24,
    "MarginGroup": "Top",
-   "Volume": 294,
+   "Volume": 345,
    "VolumeGroup": "Bottom",
    "Sell Thru": 45,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 653,
-   "Remaining InvGroup": "None",
+   "RemainingInv": 767,
+   "RemainingInvGroup": "Top",
    "Time": "July31"
  },
  {
@@ -812,12 +812,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 28,
    "MarginGroup": "Bottom",
-   "Volume": 490,
-   "VolumeGroup": "None",
+   "Volume": 171,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 25,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1960,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 684,
+   "RemainingInvGroup": "None",
    "Time": "winter17"
  },
  {
@@ -832,12 +832,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 43,
    "MarginGroup": "None",
-   "Volume": 554,
+   "Volume": 525,
    "VolumeGroup": "None",
    "Sell Thru": 40,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1385,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1313,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -856,8 +856,8 @@ var data = {"ProductData":
    "VolumeGroup": "Top",
    "Sell Thru": 50,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 1600,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1600,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -872,13 +872,13 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 23,
    "MarginGroup": "Top",
-   "Volume": 175,
+   "Volume": 144,
    "VolumeGroup": "Bottom",
    "Sell Thru": 11,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1591,
-   "Remaining InvGroup": "Top",
-   "Time": "July24"
+   "RemainingInv": 1309,
+   "RemainingInvGroup": "Top",
+   "Time": "July31"
  },
  {
    "SKU": 323456791,
@@ -892,12 +892,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 35,
    "MarginGroup": "None",
-   "Volume": 395,
+   "Volume": 360,
    "VolumeGroup": "Bottom",
    "Sell Thru": 34,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1162,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1059,
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -912,12 +912,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 20,
    "MarginGroup": "Bottom",
-   "Volume": 112,
+   "Volume": 243,
    "VolumeGroup": "Bottom",
    "Sell Thru": 17,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 659,
-   "Remaining InvGroup": "None",
+   "RemainingInv": 1429,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -932,12 +932,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 55,
    "MarginGroup": "Top",
-   "Volume": 507,
+   "Volume": 714,
    "VolumeGroup": "None",
    "Sell Thru": 2,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 25350,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 35700,
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -952,12 +952,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 33,
    "MarginGroup": "Bottom",
-   "Volume": 898,
+   "Volume": 751,
    "VolumeGroup": "Top",
    "Sell Thru": 45,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1996,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1669,
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -972,12 +972,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 25,
    "MarginGroup": "None",
-   "Volume": 179,
+   "Volume": 197,
    "VolumeGroup": "Bottom",
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 778,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 857,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -992,13 +992,13 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 23,
    "MarginGroup": "Top",
-   "Volume": 212,
+   "Volume": 323,
    "VolumeGroup": "Bottom",
    "Sell Thru": 43,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 493,
-   "Remaining InvGroup": "None",
-   "Time": "July24"
+   "RemainingInv": 751,
+   "RemainingInvGroup": "Top",
+   "Time": "winter17"
  },
  {
    "SKU": 323456797,
@@ -1012,12 +1012,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 10,
    "MarginGroup": "Top",
-   "Volume": 270,
+   "Volume": 153,
    "VolumeGroup": "Bottom",
    "Sell Thru": 23,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 1174,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 665,
+   "RemainingInvGroup": "None",
    "Time": "July31"
  },
  {
@@ -1032,12 +1032,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 13,
    "MarginGroup": "Bottom",
-   "Volume": 32,
+   "Volume": 10,
    "VolumeGroup": "Bottom",
    "Sell Thru": 22,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 145,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInv": 45,
+   "RemainingInvGroup": "Bottom",
    "Time": "winter18"
  },
  {
@@ -1052,12 +1052,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 13,
    "MarginGroup": "Top",
-   "Volume": 175,
+   "Volume": 449,
    "VolumeGroup": "Bottom",
    "Sell Thru": 11,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1591,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 4082,
+   "RemainingInvGroup": "Top",
    "Time": "July24"
  },
  {
@@ -1072,12 +1072,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 13,
    "MarginGroup": "None",
-   "Volume": 186,
+   "Volume": 234,
    "VolumeGroup": "Bottom",
    "Sell Thru": 8,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 2325,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 2925,
+   "RemainingInvGroup": "Top",
    "Time": "July24"
  },
  {
@@ -1092,12 +1092,12 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 18,
    "MarginGroup": "None",
-   "Volume": 458,
-   "VolumeGroup": "None",
+   "Volume": 394,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 21,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 2181,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1876,
+   "RemainingInvGroup": "Top",
    "Time": "July24"
  },
  {
@@ -1116,8 +1116,8 @@ var data = {"ProductData":
    "VolumeGroup": "Top",
    "Sell Thru": 60,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 1667,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1667,
+   "RemainingInvGroup": "Top",
    "Time": "July31"
  },
  {
@@ -1132,13 +1132,13 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 11,
    "MarginGroup": "None",
-   "Volume": 182,
+   "Volume": 127,
    "VolumeGroup": "Bottom",
    "Sell Thru": 10,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 1820,
-   "Remaining InvGroup": "Top",
-   "Time": "spring17"
+   "RemainingInv": 1270,
+   "RemainingInvGroup": "Top",
+   "Time": "winter17"
  },
  {
    "SKU": 223456791,
@@ -1152,12 +1152,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 39,
    "MarginGroup": "None",
-   "Volume": 495,
+   "Volume": 613,
    "VolumeGroup": "None",
    "Sell Thru": 36,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1375,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1703,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -1176,8 +1176,8 @@ var data = {"ProductData":
    "VolumeGroup": "Bottom",
    "Sell Thru": 30,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 667,
-   "Remaining InvGroup": "None",
+   "RemainingInv": 667,
+   "RemainingInvGroup": "None",
    "Time": "winter17"
  },
  {
@@ -1192,12 +1192,12 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 23,
    "MarginGroup": "None",
-   "Volume": 320,
+   "Volume": 252,
    "VolumeGroup": "Bottom",
    "Sell Thru": 13,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 2462,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1938,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -1212,12 +1212,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 14,
    "MarginGroup": "None",
-   "Volume": 985,
-   "VolumeGroup": "Top",
+   "Volume": 368,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 55,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 1791,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 669,
+   "RemainingInvGroup": "None",
    "Time": "July24"
  },
  {
@@ -1232,12 +1232,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 15,
    "MarginGroup": "Bottom",
-   "Volume": 84,
+   "Volume": 115,
    "VolumeGroup": "Bottom",
    "Sell Thru": 76,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 111,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInv": 151,
+   "RemainingInvGroup": "Bottom",
    "Time": "July24"
  },
  {
@@ -1252,12 +1252,12 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 23,
    "MarginGroup": "Top",
-   "Volume": 609,
-   "VolumeGroup": "None",
+   "Volume": 231,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 2648,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1004,
+   "RemainingInvGroup": "Top",
    "Time": "July31"
  },
  {
@@ -1276,8 +1276,8 @@ var data = {"ProductData":
    "VolumeGroup": "None",
    "Sell Thru": 40,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 1250,
-   "Remaining InvGroup": "None",
+   "RemainingInv": 1250,
+   "RemainingInvGroup": "None",
    "Time": "winter17"
  },
  {
@@ -1292,13 +1292,13 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 24,
    "MarginGroup": "None",
-   "Volume": 258,
+   "Volume": 175,
    "VolumeGroup": "Bottom",
    "Sell Thru": 15,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 1720,
-   "Remaining InvGroup": "Top",
-   "Time": "spring17"
+   "RemainingInv": 1167,
+   "RemainingInvGroup": "Top",
+   "Time": "winter17"
  },
  {
    "SKU": 435456791,
@@ -1312,12 +1312,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 15,
    "MarginGroup": "Bottom",
-   "Volume": 331,
-   "VolumeGroup": "Bottom",
+   "Volume": 850,
+   "VolumeGroup": "Top",
    "Sell Thru": 90,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 368,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInv": 944,
+   "RemainingInvGroup": "Top",
    "Time": "July24"
  },
  {
@@ -1332,12 +1332,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 23,
    "MarginGroup": "Bottom",
-   "Volume": 1407,
-   "VolumeGroup": "Top",
+   "Volume": 363,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 23,
    "Sell ThruGroup": "None",
-   "Remaining Inv": 6117,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1578,
+   "RemainingInvGroup": "Top",
    "Time": "July31"
  },
  {
@@ -1352,12 +1352,12 @@ var data = {"ProductData":
    "Vendor": "789 Vendor",
    "Margin": 35,
    "MarginGroup": "None",
-   "Volume": 260,
+   "Volume": 331,
    "VolumeGroup": "Bottom",
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 1130,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 1439,
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -1372,12 +1372,12 @@ var data = {"ProductData":
    "Vendor": "XYZ Vendor",
    "Margin": 15,
    "MarginGroup": "None",
-   "Volume": 680,
-   "VolumeGroup": "None",
+   "Volume": 200,
+   "VolumeGroup": "Bottom",
    "Sell Thru": 23,
    "Sell ThruGroup": "Top",
-   "Remaining Inv": 2957,
-   "Remaining InvGroup": "Top",
+   "RemainingInv": 870,
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -1392,12 +1392,12 @@ var data = {"ProductData":
    "Vendor": "ABC Vendor",
    "Margin": 24,
    "MarginGroup": "Top",
-   "Volume": 117,
+   "Volume": 116,
    "VolumeGroup": "Bottom",
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
-   "Remaining Inv": 509,
-   "Remaining InvGroup": "None",
+   "RemainingInv": 504,
+   "RemainingInvGroup": "None",
    "Time": "spring17"
  }
 ]}
@@ -1417,8 +1417,8 @@ var lookUpFilter = {
     "Sell Thru Top 20%":{"type":"Sell ThruGroup","info":"Top"},
     "Sell Thru Bottom 20%":{"type":"Sell ThruGroup","info":"Bottom"},
     
-    "Remaining Inv Top 20%":{"type":"Remaining InvGroup","info":"Top"},
-    "Remaining Inv Bottom 20%":{"type":"Remaining InvGroup","info":"Bottom"},
+    "RemainingInv Top 20%":{"type":"RemainingInvGroup","info":"Top"},
+    "RemainingInv Bottom 20%":{"type":"RemainingInvGroup","info":"Bottom"},
     
     "Black":{"type":"Color","info":"Black"},
     "White":{"type":"Color","info":"White"},
@@ -1457,8 +1457,8 @@ var lookUpOrder ={
     "Sell Thru High to Low":{"type": "Sell Thru", "direction":"Descending"},
     "Sell Thru Low to High":{"type": "Sell Thru", "direction":"Ascending"},
     
-    "Remaining Inv High to Low":{"type": "Remaining Inv", "direction":"Descending"},
-    "Remaining Inv Low to High":{"type": "Remaining Inv", "direction":"Ascending"},
+    "RemainingInv High to Low":{"type": "RemainingInv", "direction":"Descending"},
+    "RemainingInv Low to High":{"type": "RemainingInv", "direction":"Ascending"},
     
     "Color":{"type": "Color", "direction":"Group"},
     "Style":{"type": "Style", "direction":"Group"},

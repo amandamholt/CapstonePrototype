@@ -1,4 +1,4 @@
-SKU,ProductName,Picture,SubCategory,Color,Style,Wash,Details,Vendor,Margin,MarginGroup,Volume,VolumeGroup,Sell Thru,Sell ThruGroup,Remaing Inv,Remaining InvGroup,Time
+SKU,ProductName,Picture,SubCategory,Color,Style,Wash,Details,Vendor,Margin,MarginGroup,Volume,VolumeGroup,Sell Thru,Sell ThruGroup,Remaing Inv,RemainingInvGroup,Time
 523456789,Basic Black Sinny,basicblackskinny.jpg,Jeans,Black,Slim,Dark,,ABC Vendor,41,None,393,Bottom,35,None,1123,Top,winter17
 523456790,Carrot Fit Jean,blackslim.jpg,Jeans,Black,Slim,Dark,,789 Vendor,60,Top,1300,Top,65,Top,2000,Top,winter17
 523456791,Blue Basic Jean,bluebasicjeans.jpg,Jeans,Blue,Straight,Light,,123 Vendor,22,None,1400,Top,40,None,3500,Top,winter18

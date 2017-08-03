@@ -16,7 +16,7 @@
    "Sell Thru": 35,
    "Sell ThruGroup": "None",
    "Remaing Inv": 1123,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -36,7 +36,7 @@
    "Sell Thru": 65,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 2000,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -56,7 +56,7 @@
    "Sell Thru": 40,
    "Sell ThruGroup": "None",
    "Remaing Inv": 3500,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -76,7 +76,7 @@
    "Sell Thru": 24,
    "Sell ThruGroup": "None",
    "Remaing Inv": 2000,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -96,7 +96,7 @@
    "Sell Thru": 20,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1500,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -116,7 +116,7 @@
    "Sell Thru": 85,
    "Sell ThruGroup": "None",
    "Remaing Inv": 393,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "spring17"
  },
  {
@@ -136,7 +136,7 @@
    "Sell Thru": 24,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 3879,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -156,7 +156,7 @@
    "Sell Thru": 30,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1840,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -176,7 +176,7 @@
    "Sell Thru": 66,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 612,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "spring17"
  },
  {
@@ -196,7 +196,7 @@
    "Sell Thru": 56,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 602,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "spring17"
  },
  {
@@ -216,7 +216,7 @@
    "Sell Thru": 43,
    "Sell ThruGroup": "None",
    "Remaing Inv": 2979,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -236,7 +236,7 @@
    "Sell Thru": 20,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1455,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -256,7 +256,7 @@
    "Sell Thru": 47,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 817,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -276,7 +276,7 @@
    "Sell Thru": 34,
    "Sell ThruGroup": "None",
    "Remaing Inv": 3338,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -296,7 +296,7 @@
    "Sell Thru": 65,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1362,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -316,7 +316,7 @@
    "Sell Thru": 22,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 727,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "winter18"
  },
  {
@@ -336,7 +336,7 @@
    "Sell Thru": 46,
    "Sell ThruGroup": "None",
    "Remaing Inv": 365,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "winter18"
  },
  {
@@ -356,7 +356,7 @@
    "Sell Thru": 32,
    "Sell ThruGroup": "None",
    "Remaing Inv": 541,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "winter17"
  },
  {
@@ -376,7 +376,7 @@
    "Sell Thru": 35,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1231,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -396,7 +396,7 @@
    "Sell Thru": 65,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 1085,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -416,7 +416,7 @@
    "Sell Thru": 46,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 2000,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -436,7 +436,7 @@
    "Sell Thru": 51,
    "Sell ThruGroup": "None",
    "Remaing Inv": 965,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -456,7 +456,7 @@
    "Sell Thru": 22,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 955,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -476,7 +476,7 @@
    "Sell Thru": 25,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 452,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "spring17"
  },
  {
@@ -496,7 +496,7 @@
    "Sell Thru": 34,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 2238,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -516,7 +516,7 @@
    "Sell Thru": 13,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 6485,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -536,7 +536,7 @@
    "Sell Thru": 46,
    "Sell ThruGroup": "None",
    "Remaing Inv": 1209,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -556,7 +556,7 @@
    "Sell Thru": 9,
    "Sell ThruGroup": "None",
    "Remaing Inv": 3311,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -576,7 +576,7 @@
    "Sell Thru": 33,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 997,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -596,7 +596,7 @@
    "Sell Thru": 37,
    "Sell ThruGroup": "None",
    "Remaing Inv": 611,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "winter17"
  },
  {
@@ -616,7 +616,7 @@
    "Sell Thru": 87,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 286,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "June26"
  },
  {
@@ -636,7 +636,7 @@
    "Sell Thru": 31,
    "Sell ThruGroup": "None",
    "Remaing Inv": 1868,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -656,7 +656,7 @@
    "Sell Thru": 44,
    "Sell ThruGroup": "None",
    "Remaing Inv": 905,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -676,7 +676,7 @@
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1022,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -696,7 +696,7 @@
    "Sell Thru": 88,
    "Sell ThruGroup": "None",
    "Remaing Inv": 152,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "June26"
  },
  {
@@ -716,7 +716,7 @@
    "Sell Thru": 34,
    "Sell ThruGroup": "None",
    "Remaing Inv": 3497,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -736,7 +736,7 @@
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1404,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -756,7 +756,7 @@
    "Sell Thru": 22,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 2000,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -776,7 +776,7 @@
    "Sell Thru": 43,
    "Sell ThruGroup": "None",
    "Remaing Inv": 277,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "June26"
  },
  {
@@ -796,7 +796,7 @@
    "Sell Thru": 45,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1920,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -816,7 +816,7 @@
    "Sell Thru": 25,
    "Sell ThruGroup": "None",
    "Remaing Inv": 1340,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -836,7 +836,7 @@
    "Sell Thru": 40,
    "Sell ThruGroup": "None",
    "Remaing Inv": 1933,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -856,7 +856,7 @@
    "Sell Thru": 50,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 1600,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -876,7 +876,7 @@
    "Sell Thru": 11,
    "Sell ThruGroup": "None",
    "Remaing Inv": 5355,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -896,7 +896,7 @@
    "Sell Thru": 34,
    "Sell ThruGroup": "None",
    "Remaing Inv": 438,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "winter18"
  },
  {
@@ -916,7 +916,7 @@
    "Sell Thru": 17,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1112,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -936,7 +936,7 @@
    "Sell Thru": 2,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 33750,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -956,7 +956,7 @@
    "Sell Thru": 45,
    "Sell ThruGroup": "None",
    "Remaing Inv": 520,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "winter18"
  },
  {
@@ -976,7 +976,7 @@
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 200,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "spring17"
  },
  {
@@ -996,7 +996,7 @@
    "Sell Thru": 43,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 653,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "June26"
  },
  {
@@ -1016,7 +1016,7 @@
    "Sell Thru": 23,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 1470,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter18"
  },
  {
@@ -1036,7 +1036,7 @@
    "Sell Thru": 22,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 59,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "winter18"
  },
  {
@@ -1056,7 +1056,7 @@
    "Sell Thru": 11,
    "Sell ThruGroup": "None",
    "Remaing Inv": 6664,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -1076,7 +1076,7 @@
    "Sell Thru": 8,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1525,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -1096,7 +1096,7 @@
    "Sell Thru": 21,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 2124,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -1116,7 +1116,7 @@
    "Sell Thru": 60,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 1667,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -1136,7 +1136,7 @@
    "Sell Thru": 10,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1980,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -1156,7 +1156,7 @@
    "Sell Thru": 36,
    "Sell ThruGroup": "None",
    "Remaing Inv": 347,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "winter17"
  },
  {
@@ -1176,7 +1176,7 @@
    "Sell Thru": 30,
    "Sell ThruGroup": "None",
    "Remaing Inv": 667,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "winter17"
  },
  {
@@ -1196,7 +1196,7 @@
    "Sell Thru": 13,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1769,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -1216,7 +1216,7 @@
    "Sell Thru": 55,
    "Sell ThruGroup": "None",
    "Remaing Inv": 1169,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -1236,7 +1236,7 @@
    "Sell Thru": 76,
    "Sell ThruGroup": "None",
    "Remaing Inv": 183,
-   "Remaining InvGroup": "Bottom",
+   "RemainingInvGroup": "Bottom",
    "Time": "June26"
  },
  {
@@ -1256,7 +1256,7 @@
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 522,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "spring17"
  },
  {
@@ -1276,7 +1276,7 @@
    "Sell Thru": 40,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 1250,
-   "Remaining InvGroup": "None",
+   "RemainingInvGroup": "None",
    "Time": "winter17"
  },
  {
@@ -1296,7 +1296,7 @@
    "Sell Thru": 15,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 780,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -1316,7 +1316,7 @@
    "Sell Thru": 90,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 897,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "June26"
  },
  {
@@ -1336,7 +1336,7 @@
    "Sell Thru": 23,
    "Sell ThruGroup": "None",
    "Remaing Inv": 4757,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -1356,7 +1356,7 @@
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 1874,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  },
  {
@@ -1376,7 +1376,7 @@
    "Sell Thru": 23,
    "Sell ThruGroup": "Top",
    "Remaing Inv": 1130,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "winter17"
  },
  {
@@ -1396,7 +1396,7 @@
    "Sell Thru": 23,
    "Sell ThruGroup": "Bottom",
    "Remaing Inv": 852,
-   "Remaining InvGroup": "Top",
+   "RemainingInvGroup": "Top",
    "Time": "spring17"
  }
 ]
