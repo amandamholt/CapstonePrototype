@@ -175,6 +175,7 @@ function appendComponent(data){
 
 }
 
+<<<<<<< HEAD
 
 $( function() {
     $( "#orderSelect" ).selectmenu({
@@ -206,6 +207,9 @@ $( function() {
   } );
 
 //create a variable to store the currently selected timeframe in
+=======
+//create a variable to store the currently selected timeframe
+>>>>>>> 4dc567048da10eef5de737cac615964beedd6e27
 var timeBox = "July31";
 
 
@@ -379,11 +383,16 @@ var selectedBoxes = [];
 //this function empties the dataShowing and the selectedBoxes arrays when another selection is made
 $( ".selectable" ).on( "selectableselecting", function( event, ui ) {
 
+  $( ".ui-selected" ).removeClass( "ui-selected");
+
     //this ensures only the products with the selected time are in the array:
     dataShowing = [];
     //this ensures only the most recently selected time range is in the array:
     selectedBoxes = [];
 
+    
+    
+    
 });
 
 
@@ -393,10 +402,9 @@ $( ".selectable" ).on( "selectableselected", function( event, ui ) {
   var selectedBox = ui.selected.id;
   selectedBoxes.push(selectedBox);
   console.log(selectedBoxes);
-  timeBox = selectedBoxes[(selectedBoxes.length) - 1]; //data.ProductData[0].Time)
+  timeBox = selectedBoxes[(selectedBoxes.length) - 1];
 
   sortByTime(timeBox);
-  //console.log(dataShowing)
   fillGrid();
   sortShowindData(elementsToSort,order);
 } );
@@ -445,11 +453,12 @@ $(document).ready(function() {
 $( function() {
     $( ".selectable").selectable();
   } );
+
   $( function() {
     $( ".selectable li" ).hover(
-    function() {
-      $( this ).removeClass( "ui-state-default" ).addClass( "ui-state-hover" );
-    }, function() {
+      function() {
+        $( this ).removeClass( "ui-state-default" ).addClass( "ui-state-hover" );
+      }, function() {
       $( this ).removeClass( "ui-state-hover" ).addClass( "ui-state-default" );
     }
   );
