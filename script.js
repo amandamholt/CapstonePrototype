@@ -175,7 +175,7 @@ function appendComponent(data){
 
 }
 
-<<<<<<< HEAD
+
 
 $( function() {
     $( "#orderSelect" ).selectmenu({
@@ -207,9 +207,9 @@ $( function() {
   } );
 
 //create a variable to store the currently selected timeframe in
-=======
+
 //create a variable to store the currently selected timeframe
->>>>>>> 4dc567048da10eef5de737cac615964beedd6e27
+
 var timeBox = "July31";
 
 
